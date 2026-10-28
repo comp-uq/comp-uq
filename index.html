@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Coherent Moment Propagation: epistemic uncertainty for pre-trained robot policies. Anonymous research supplement.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-src 'none'">
+  <title>CoMP · Coherent Moment Propagation</title>
+  <link rel="icon" href="static/media/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="static/fonts/manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/site.css?v=20261028-paper">
+  <script defer src="static/js/data.js?v=20261016-cleanup"></script>
+  <script defer src="static/js/hero-data.js?v=20261016-cleanup"></script>
+  <script defer src="static/js/solver-data.js"></script>
+  <script defer src="static/js/failure-data.js?v=20261016-cleanup"></script>
+  <script defer src="static/js/site.js?v=20261021-method-steps"></script>
+  <script defer src="static/js/failure.js?v=20261016-1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="CoMP home"><img src="static/media/mark.svg" width="34" height="34" alt="">CoMP<span class="brand-dot">.</span></a>
+      <div class="nav-links"><a href="#idea">The problem</a><a href="#method">The method</a><a href="#experiments">Evaluation</a></div>
+      <span class="review-label"><span></span> Anonymous authors</span>
+      <button class="motion-toggle" id="motion-toggle" aria-pressed="false" title="Pause ambient animations">Pause motion</button>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-body">
+        <h1>Coherent Moment<br><span>Propagation</span></h1>
+        <p class="publication-subtitle">Epistemic uncertainty for pre-trained robot policies.</p>
+        <p class="hero-description">CoMP extracts epistemic uncertainty from a single pre-trained flow matching policy<br class="desktop-br"> using moment recursions derived from a linearized ODE sampler.</p>
+        <div class="hero-links"><a class="button button-primary" href="#idea">Explore the idea <span aria-hidden="true">↘</span></a><a class="button button-outline" href="#experiments">See it in action <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-resources" aria-label="Paper and code availability"><a class="resource-link" href="static/papers/CoMP.pdf?v=4c6b2a0aa8b5" target="_blank" rel="noopener noreferrer" type="application/pdf" aria-label="Read the CoMP paper (PDF, opens in a new tab)"><strong>Paper</strong><span>PDF <span aria-hidden="true">↗</span></span></a><span class="resource-placeholder"><strong>Code</strong><span>Coming soon</span></span></div>
+        <div class="hero-stage">
+          <div class="intuition-stage">
+            <div class="stage-top"><span class="stage-label">EPISTEMIC UNCERTAINTY</span><span class="illustration-tag">Interactive illustration</span></div>
+            <div class="intuition-copy"><h3>Same initial noise<br>Different weights, different actions</h3><p>Uncertainty in the policy’s weights produces different action trajectories, even from the same initial noise. Their spread reflects epistemic uncertainty.</p></div>
+            <canvas id="intuition-canvas" aria-label="Conceptual illustration: different fixed posterior weight draws produce different action trajectories from one initial noise. Less training support increases the illustrated epistemic spread."></canvas>
+            <div class="intuition-controls"><div><label for="support-slider">How familiar is this situation?</label><output id="support-label" for="support-slider">Mostly familiar</output></div><input type="range" id="support-slider" min="0" max="100" value="30"><div class="range-labels"><span>More training support</span><span>Less training support</span></div></div>
+          </div>
+          <div class="robot-stage" id="robot-stage">
+            <div class="robot-film">
+              <video id="hero-video" muted loop playsinline preload="auto" src="static/media/robolab-full/pumpkin-specific.mp4?v=20261015-c23" poster="static/media/robolab-full/pumpkin-specific.webp" aria-label="Full RoboLab episode with synchronized measured epistemic uncertainty"></video>
+              <div class="robot-film-top"><span class="live-label"><i></i> ROBOLAB</span><span class="hero-task-count" id="hero-task-count">01 / 10</span></div>
+              <div class="robot-status"><i></i><span><strong id="hero-video-method">CoMP-UKF</strong><span id="hero-status">Measured uncertainty</span></span></div>
+              <button class="hero-expand" id="hero-expand" aria-label="Expand RoboLab video and uncertainty plot" title="Expand video">⛶</button>
+              <button class="hero-play" id="hero-play" aria-label="Pause RoboLab video">Ⅱ</button>
+            </div>
+            <div class="robot-dashboard">
+              <div class="hero-task-nav"><button id="hero-prev" aria-label="Previous RoboLab task">←</button><select id="hero-task-select" aria-label="Choose a RoboLab task"></select><button id="hero-next" aria-label="Next RoboLab task">→</button></div>
+              <div class="robot-dashboard-top"><span>Instruction</span><div class="hero-wordings" role="group" aria-label="Replay instruction"><button data-hero-wording="specific" aria-pressed="true">Specific</button><button data-hero-wording="default" aria-pressed="false">Default</button><button data-hero-wording="vague" aria-pressed="false">Vague</button></div></div>
+              <p class="hero-instruction" id="hero-instruction"></p>
+              <span class="hero-method-caption">Uncertainty estimator</span><div class="hero-methods" id="hero-methods" role="group" aria-label="Choose the estimator for the plot and video color"></div>
+              <p class="hero-collapse-note">Compare BayesDiff at 10 and 50 integration steps: its reported uncertainty shrinks as the solver is refined.</p>
+              <div class="hero-score-row"><span id="hero-score-label">Epistemic uncertainty</span><strong id="hero-score">0</strong><span id="hero-decision">Decision 1</span></div>
+              <div class="hero-trace-wrap"><svg id="hero-trace" viewBox="0 0 400 88" role="img" aria-label="Selected estimator’s epistemic uncertainty across policy decisions"></svg><input id="hero-seek" type="range" min="0" max="1" step="0.001" value="0" aria-label="RoboLab replay time"></div>
+              <div class="hero-time-row"><span class="hero-raw-label">Raw values</span><span class="hero-scrub-hint">Drag the plot to scrub</span><span id="hero-time">0:00 / 0:00</span></div><div class="hero-scale" tabindex="0" title="Colors are scaled to each estimator’s maximum across recordings; equal colors do not imply equal raw scores."><span>0 · Lower</span><span class="hero-gradient"></span><span><span id="hero-color-max">428.5</span> · Higher</span></div>
+            </div>
+          </div>
+        </div>
+        <p class="hero-caption">Explore full RoboLab episodes under three instruction wordings. Select CoMP-UKF or either BayesDiff setting to follow its measured epistemic uncertainty. The left animation illustrates the concept of epistemic uncertainty in flow matching policies: different plausible weights generate different actions from the same initial noise.</p>
+        <div class="facts-overview" aria-labelledby="facts-heading">
+          <h2 id="facts-heading">CoMP at a glance</h2>
+          <div class="facts-strip">
+            <div><h3>One pre-trained policy</h3><p>Estimate uncertainty from a policy you already have.</p></div>
+            <div><h3>Two CoMP estimators</h3><p>CoMP-EKF and CoMP-UKF are derived from a linearized ODE sampler.</p></div>
+            <div><h3>Evaluated in three manipulation benchmarks</h3><p>robomimic, LIBERO and RoboLab.</p></div>
+            <div><h3>No policy retraining</h3><p>Fit a weight posterior while preserving the policy’s action predictions.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-idea" id="idea" aria-labelledby="problem-title">
+      <div class="container">
+        <div class="section-header"><h2 id="problem-title">The problem</h2><p>Why a more accurate solver can report less uncertainty</p></div>
+        <div class="section-intro"><div><h3 class="section-title">A more accurate solver<br><span class="serif-word">Collapsing</span> uncertainty</h3></div><p>Reliable epistemic uncertainty helps robot policies anticipate failures and select demonstrations for fine-tuning on new tasks. To quantify this uncertainty in diffusion models, BayesDiff introduced Bayesian moment propagation, carrying the state’s mean and variance through the sampling chain. However, it ignores the dependence between the state and the sampled weights that generate it. <strong>We prove that, under standard regularity assumptions, its reported total variance has an <var>O(1/T)</var> upper bound for <var>T</var> Euler steps.</strong> Finer integration therefore drives its uncertainty estimates towards zero even as numerical accuracy improves, a phenomenon we call variance collapse.</p></div>
+        <div class="collapse-demo">
+          <div class="demo-heading"><div><h3>Refine the solver and watch BayesDiff’s variance shrink</h3></div><div class="step-readout"><output id="steps-value" for="steps-slider">10</output><span>Euler steps</span></div></div>
+          <div class="comparison-labels"><div><span class="dot coral"></span> BayesDiff <span class="light-label">State-weight dependence omitted</span></div><div><span class="dot teal"></span> CoMP-UKF <span class="light-label">State-weight dependence retained</span></div></div>
+          <canvas id="collapse-canvas" role="img" aria-label="Measured mean paths and covariance contours for BayesDiff and CoMP-UKF on a learned two-dimensional flow. Both panels share the same scale."></canvas>
+          <div class="solver-legend"><span><i class="legend-contour"></i>2σ covariance contours</span><span><i class="legend-reference"></i>Posterior reference</span><span><i class="legend-cloud"></i>Posterior samples</span></div>
+          <div class="variance-readouts"><div><span>Total variance</span><strong id="bd-variance">0.003899</strong><small id="bd-ratio">21.72% of ground-truth reference</small></div><div><span>Total variance</span><strong id="ukf-variance">0.018012</strong><small id="ukf-ratio">100.33% of ground-truth reference</small></div></div>
+          <div class="solver-controls"><label for="steps-slider">Number of Euler steps <span>Drag right to refine the solver</span></label><input type="range" id="steps-slider" min="0" max="5" value="0" step="0.001" title="Values at the marked step counts are measured; intermediate views are interpolated."><div class="solver-ticks"><button type="button" data-grid="0" aria-pressed="true">10</button><button type="button" data-grid="1">25</button><button type="button" data-grid="2">50</button><button type="button" data-grid="3">100</button><button type="button" data-grid="4">200</button><button type="button" data-grid="5">400</button></div></div>
+          <p class="solver-reference-note">Posterior reference total variance at this grid: <strong id="reference-variance">0.017953</strong></p>
+          <p class="demo-note">Solid contours show each estimator’s covariance; dashed contours show the ground truth covariance. Both panels use the same scale.</p>
+          <p class="paper-reference">Paper: Section 3 · Figure 1 · Appendix A.1</p>
+        </div>
+        <div class="takeaway"><span>THE KEY OBSERVATION</span><p>The same sampled weights influence the state at every integration step.<br><strong>That dependence needs to be propagated through the ODE solver.</strong></p></div>
+      </div>
+    </section>
+
+    <section class="section method-section" id="method" aria-labelledby="method-title">
+      <div class="container">
+        <div class="section-header"><h2 id="method-title">The method</h2><p>From a pre-trained flow model to calibrated epistemic uncertainty</p></div>
+        <div class="section-intro"><div><h3 class="section-title">Propagate <span>state-weight</span><br>cross-covariance</h3></div><p>We propose CoMP, which retains state-weight cross-covariance through moment recursions derived from a jointly linearized ODE sampler. <strong>Under the same regularity assumptions used for BayesDiff, we prove an <var>O(1)</var> upper bound on total variance for this linearized recursion, independent of the number of integration steps.</strong> Our proposed estimators, <strong class="estimator-name">CoMP-EKF</strong> and <strong class="estimator-name">CoMP-UKF</strong>, provide two practical ways to propagate these moments.</p></div>
+        <div class="method-explainer">
+          <div class="method-explainer-top"><span class="tiny-label"><strong>HOW CoMP WORKS</strong></span><span class="method-explore-hint">Select a step to explore</span></div>
+          <p class="method-context">The ODE state <var>x</var> evolves from noise to a generated sample; <var>θ</var> denotes the last-layer weights. For a robot policy, the sample is an action chunk. At step <var>i</var> of <var>T</var> Euler steps, CoMP carries:</p>
+          <dl class="method-notation" aria-label="Notation used in the method diagram">
+            <div><dt>m<sub>i</sub></dt><dd>State mean</dd></div><div><dt>P<sub>i</sub></dt><dd>State covariance</dd></div><div><dt>C<sub>i</sub> = Cov(x<sub>i</sub>, θ)</dt><dd>State-weight cross-covariance</dd></div><div><dt>Σ<sub>θ</sub></dt><dd>Fixed weight covariance</dd></div>
+          </dl>
+          <div class="method-flow" role="group" aria-label="The four steps of CoMP">
+            <button class="method-step" data-method-step="0" aria-pressed="false" aria-controls="method-detail">
+              <span class="method-step-number">1. Fit Laplace posterior</span>
+              <svg viewBox="0 0 240 120" aria-hidden="true"><path d="M25 97H215" class="diagram-axis"/><path d="M25 96C60 96 69 95 83 70C97 41 105 24 120 24S143 41 157 70C171 95 180 96 215 96" class="posterior-curve"/><path d="M120 24V98" class="diagram-guide"/><circle cx="120" cy="97" r="4" class="diagram-dot"/><text x="120" y="116" text-anchor="middle">pre-trained weights</text><text x="177" y="34" class="diagram-math">Σ<tspan baseline-shift="sub" font-size="14">θ</tspan></text></svg>
+              <span class="method-step-copy">Use the plain or augmented last-layer Laplace posterior.</span>
+            </button>
+            <span class="method-flow-arrow" aria-hidden="true">→</span>
+            <button class="method-step" data-method-step="1" aria-pressed="false" aria-controls="method-detail">
+              <span class="method-step-number">2. Initialize</span>
+              <svg viewBox="0 0 240 120" aria-hidden="true"><path d="M38 60H202" class="diagram-axis"/><path d="M120 23V96" class="diagram-guide"/><circle cx="120" cy="60" r="24" class="seed-ring"/><circle cx="120" cy="60" r="6" class="diagram-dot"/><text x="120" y="115" text-anchor="middle">one fixed initial noise sample</text></svg>
+              <span class="method-step-copy">Start from one fixed noise sample.</span>
+            </button>
+            <span class="method-flow-arrow" aria-hidden="true">→</span>
+            <button class="method-step" data-method-step="2" aria-pressed="true" aria-controls="method-detail">
+              <span class="method-step-number">3. Propagate</span>
+              <svg viewBox="0 0 240 120" aria-hidden="true"><path d="M59 14H49V106H59M181 14H191V106H181" class="matrix-bracket"/><rect x="64" y="19" width="51" height="38" rx="5" class="matrix-state"/><rect x="122" y="19" width="51" height="38" rx="5" class="matrix-cross"/><rect x="64" y="64" width="51" height="38" rx="5" class="matrix-cross"/><rect x="122" y="64" width="51" height="38" rx="5" class="matrix-weight"/><text x="90" y="45" text-anchor="middle" class="matrix-symbol">P</text><text x="148" y="45" text-anchor="middle" class="matrix-symbol cross-symbol">C</text><text x="90" y="90" text-anchor="middle" class="matrix-symbol cross-symbol">Cᵀ</text><text x="148" y="90" text-anchor="middle" class="matrix-symbol">Σ<tspan baseline-shift="sub" font-size="14">θ</tspan></text></svg>
+              <span class="method-step-copy">Map weight uncertainty to state uncertainty at each ODE step.</span>
+            </button>
+            <span class="method-flow-arrow" aria-hidden="true">→</span>
+            <button class="method-step" data-method-step="3" aria-pressed="false" aria-controls="method-detail">
+              <span class="method-step-number">4. Final uncertainty</span>
+              <svg viewBox="0 0 240 120" aria-hidden="true"><g transform="translate(120 60) rotate(-22)"><ellipse rx="63" ry="30" class="output-ellipse"/><ellipse rx="37" ry="18" class="output-inner"/><circle cx="-27" cy="-5" r="3" class="output-point"/><circle cx="-9" cy="10" r="3" class="output-point"/><circle cx="16" cy="-11" r="3" class="output-point"/><circle cx="37" cy="3" r="3" class="output-point"/></g><circle cx="120" cy="60" r="4" class="diagram-dot"/><text x="120" y="114" text-anchor="middle">action-chunk covariance P<tspan baseline-shift="sub" font-size="7">T</tspan></text></svg>
+              <span class="method-step-copy">Summarize final state covariance as an epistemic uncertainty score.</span>
+            </button>
+          </div>
+          <div class="method-detail" id="method-detail" data-step="2" aria-live="polite"><div><span class="tiny-label" id="method-detail-tag">3. Propagate</span><h3 id="method-detail-title">Map weight uncertainty to state uncertainty</h3><p id="method-detail-copy">Update the state mean, covariance and state-weight cross-covariance together. CoMP-EKF uses a local linearization; CoMP-UKF passes deterministic sigma points through the nonlinear Euler map. Both retain the dependence on the same uncertain weights across steps.</p></div><div class="method-detail-equation"><span id="method-equation">C<sub>i+1</sub> = A<sub>i</sub> C<sub>i</sub> + B<sub>i</sub> Σ<sub>θ</sub></span><small id="method-equation-note">At step <var>i</var>, <var>A<sub>i</sub></var> is the local affine state map and <var>B<sub>i</sub></var> is the Euler step’s weight Jacobian. <var>A<sub>i</sub></var> transports the existing cross-covariance <var>C<sub>i</sub></var>; <var>B<sub>i</sub>Σ<sub>θ</sub></var> adds the dependence created by this step.</small></div></div>
+        </div>
+        <p class="paper-reference">Paper: Section 3 · Appendices A.3 and A.4 for the augmented posterior and moment updates</p>
+        <div class="method-contributions" role="group" aria-labelledby="contributions-title">
+          <h3 id="contributions-title">Our contributions</h3>
+          <div class="method-columns"><article><span class="method-index">ESTIMATOR 1</span><h4>CoMP-EKF</h4><p>Uses the state Jacobian to propagate a local linear approximation of the flow.</p></article><article><span class="method-index">ESTIMATOR 2</span><h4>CoMP-UKF</h4><p>Passes deterministic sigma points through the network, capturing nonlinear effects beyond a local linearization.</p></article><article><span class="method-index">LAPLACE EXTENSION</span><h4>Our augmented<br>Laplace posterior</h4><p>Append the policy’s existing image, language and proprioception embeddings to the last layer. The added features improve uncertainty estimates without retraining or changing MAP action predictions.</p></article></div>
+        </div>
+        <details class="paper-detail algorithm-detail" id="ukf-pseudocode">
+          <summary>CoMP-UKF pseudocode <span aria-hidden="true">+</span></summary>
+          <div class="algorithm-body">
+            <div class="algorithm-heading"><h3>One coherent pass through the ODE</h3><p class="paper-reference">Paper: Appendix A.4, Algorithm 2</p></div>
+            <p>Start with an initial noise sample <var>x<sub>0</sub></var>, a fixed weight covariance <var>Σ<sub>θ</sub></var>, and the velocity field <var>u<sub>θMAP</sub></var> evaluated at the pre-trained weights. Use <var>T</var> Euler steps of size <var>Δt = 1/T</var>, at times <var>t<sub>i</sub> = iΔt</var>.</p>
+            <div class="algorithm-initialize"><strong>Initialize</strong><span class="algorithm-math">m<sub>0</sub> = x<sub>0</sub>, &nbsp; P<sub>0</sub> = 0, &nbsp; C<sub>0</sub> = 0</span></div>
+            <div class="algorithm-loop">
+              <div class="algorithm-loop-heading">For each integration step <var>i = 0, …, T − 1</var></div>
+              <ol class="algorithm-steps">
+                <li><h4>Represent the state uncertainty</h4><p>Construct <var>2D + 1</var> sigma points <var>χ<sub>j</sub></var> that represent the state mean <var>m<sub>i</sub></var> and covariance <var>P<sub>i</sub></var>. Here <var>D</var> is the state dimension; <var>w<sub>j</sub><sup>(m)</sup></var> and <var>w<sub>j</sub><sup>(c)</sup></var> are the unscented transform’s mean and covariance weights.</p></li>
+                <li><h4>Pass the points through the nonlinear Euler map</h4><div class="algorithm-math">y<sub>j</sub> = χ<sub>j</sub> + Δt u<sub>θMAP</sub>(χ<sub>j</sub>, t<sub>i</sub>)</div><div class="algorithm-math">ȳ = ∑<sub>j</sub> w<sub>j</sub><sup>(m)</sup> y<sub>j</sub></div><p>The propagated points give the next mean <var>ȳ</var>, the transported covariance <var>Σ<sub>i</sub><sup>yy</sup></var>, and the input-output cross-covariance <var>Σ<sub>i</sub><sup>xy</sup></var>:</p><div class="algorithm-math">Σ<sub>i</sub><sup>yy</sup> = ∑<sub>j</sub> w<sub>j</sub><sup>(c)</sup> (y<sub>j</sub> − ȳ)(y<sub>j</sub> − ȳ)ᵀ</div><div class="algorithm-math">Σ<sub>i</sub><sup>xy</sup> = ∑<sub>j</sub> w<sub>j</sub><sup>(c)</sup> (χ<sub>j</sub> − m<sub>i</sub>)(y<sub>j</sub> − ȳ)ᵀ</div></li>
+                <li><h4>Compute the state and weight sensitivities</h4><p>Find the affine state map <var>A<sub>i</sub></var> from the sigma points by solving</p><div class="algorithm-math">(P<sub>i</sub> + ε<sub>i</sub>I) A<sub>i</sub>ᵀ = Σ<sub>i</sub><sup>xy</sup></div><p>Here <var>I</var> is the identity and <var>ε<sub>i</sub> &gt; 0</var> regularizes the solve, including at <var>P<sub>0</sub> = 0</var>. Compute the weight sensitivity <var>B<sub>i</sub> = Δt J<sub>i</sub><sup>θ</sup></var> analytically for the linear last layer, where <var>J<sub>i</sub><sup>θ</sup></var> is the velocity’s weight Jacobian at <var>(m<sub>i</sub>, t<sub>i</sub>, θ<sub>MAP</sub>)</var>. No weight sigma points are needed.</p></li>
+                <li><h4>Update all three moments together</h4><div class="algorithm-math">m<sub>i+1</sub> = ȳ</div><div class="algorithm-math">C<sub>i+1</sub> = A<sub>i</sub>C<sub>i</sub> + B<sub>i</sub>Σ<sub>θ</sub></div><div class="algorithm-math covariance-update"><span>P<sub>i+1</sub> = Σ<sub>i</sub><sup>yy</sup></span> <span class="cross-terms">+ A<sub>i</sub>C<sub>i</sub>B<sub>i</sub>ᵀ + B<sub>i</sub>C<sub>i</sub>ᵀA<sub>i</sub>ᵀ</span> <span>+ B<sub>i</sub>Σ<sub>θ</sub>B<sub>i</sub>ᵀ</span></div><p>The highlighted terms retain state-weight dependence. Both covariance updates use <var>C<sub>i</sub></var> from the current step.</p></li>
+              </ol>
+            </div>
+            <div class="algorithm-return"><strong>Return</strong><span>The Gaussian approximation with mean <var>m<sub>T</sub></var> and covariance <var>P<sub>T</sub></var>.</span></div>
+          </div>
+        </details>
+
+        <details class="paper-detail"><summary>More mathematical details <span aria-hidden="true">+</span></summary>
+          <div class="math-detail">
+            <p>A single posterior weight draw shapes the action trajectory while the ODE is being solved. To keep this dependence, CoMP carries <var>C = Cov(x, θ)</var>, alongside the state covariance <var>P</var> and weight covariance <var>Σ<sub>θ</sub></var>. Linearizing an Euler step about the state mean and MAP weights gives a closed-form update for the state covariance:</p>
+            <div class="equation">P′ = A P Aᵀ <span>+ A C Bᵀ + B Cᵀ Aᵀ</span> + B Σ<sub>θ</sub> Bᵀ</div>
+            <p>Here the prime denotes the next step. <var>A</var> and <var>B</var> are the Euler update’s Jacobians with respect to the state and weights; step indices are omitted for readability. The highlighted cross terms couple uncertainty already in the state to the same weights acting at the next step. CoMP-UKF retains these cross terms, using sigma points to estimate the transported covariance and the affine state map.</p>
+            <p>Under standard regularity assumptions, BayesDiff’s total variance has an <var>O(1/T)</var> upper bound for <var>T</var> Euler steps. Carrying the cross-covariance gives CoMP’s linearized recursion an upper bound independent of <var>T</var>.</p>
+            <p class="paper-reference">Paper: Section 3 · Appendices A.1 and A.2 for the proofs</p>
+          </div>
+        </details>
+        <details class="paper-detail calibration-detail" id="calibration-results">
+          <summary>See how CoMP recovers covariance <span aria-hidden="true">+</span></summary>
+          <figure><picture><source media="(max-width: 600px)" srcset="static/figures/calibration-mobile.svg?v=20261016-1" width="660" height="1100"><img src="static/figures/calibration.svg?v=20261016-1" loading="lazy" decoding="async" width="1200" height="440" alt="CoMP-EKF and CoMP-UKF closely recover posterior variance and pairwise structure on three robomimic tasks, while BayesDiff underestimates variance even with full covariance."></picture><figcaption>On robomimic, both CoMP variants recover reference variance to within 0.2% and variogram discrepancy to within 10%, while BayesDiff underestimates variance even with full covariance. Dashed lines mark the posterior reference for the first two panels; lower expert-action NLL is better. Medians and bootstrap 95% intervals over 150 observations per task.<span class="paper-reference">Paper: Section 4.1 · Appendix A.7</span></figcaption></figure>
+        </details>
+      </div>
+    </section>
+
+    <section class="evaluation-section" id="experiments" aria-labelledby="evaluation-title">
+      <div class="container">
+        <div class="section-header"><h2 id="evaluation-title">Evaluation</h2><p>Applications and experiments on robot policies</p></div>
+        <nav class="application-links" aria-label="Applications"><a href="#observation">Input ambiguity <span aria-hidden="true">↓</span></a><a href="#failure">Failure prediction <span aria-hidden="true">↓</span></a><a href="#selection">Demonstration selection <span aria-hidden="true">↓</span></a></nav>
+      </div>
+    <section class="section language-section" id="observation" aria-labelledby="observation-title">
+      <div class="container">
+        <div class="section-intro"><div><div class="eyebrow">1. Responding to the input observation</div><h3 class="section-title" id="observation-title">Same scene<br>Different levels of<br>language ambiguity</h3></div><p>As instructions become more ambiguous and task success declines, epistemic uncertainty should rise. On RoboLab, the plain Laplace head barely responds to these changes. <strong>Our augmented Laplace head makes uncertainty estimators more responsive to language ambiguity</strong> by reusing observation embeddings the policy already computes.</p></div>
+        <div class="language-demo">
+          <div class="language-image"><img id="task-image" src="static/media/language-scenes/BananaInBowlTask.webp" width="3840" height="2160" alt="RoboLab banana and bowl task" loading="lazy" decoding="async" fetchpriority="low"><div class="scene-label">RoboLab <span>Task illustration</span></div><span id="scene-status" class="scene-status" role="status" hidden></span><blockquote id="instruction-text">“Grasp the yellow banana and place it inside the red bowl on the table”</blockquote></div>
+          <div class="language-panel"><label class="tiny-label" for="task-select">EXPLORE A TASK</label><select id="task-select" aria-label="RoboLab task"></select><div class="segmented" role="group" aria-label="Instruction specificity"><button data-wording="0" aria-pressed="true">Specific</button><button data-wording="1" aria-pressed="false">Default</button><button data-wording="2" aria-pressed="false">Vague</button></div><div class="chart-title"><h3>Does uncertainty respond?</h3><span>CoMP-UKF</span></div><div class="bar-row"><div><span>Plain head</span><output id="plain-value">0.00</output></div><svg id="plain-response" class="response-line" viewBox="0 0 360 62" role="img" aria-label="Plain-head uncertainty across all three instruction wordings"></svg></div><div class="bar-row augmented"><div><span>Our augmented head</span><output id="aug-value">0.00</output></div><svg id="aug-response" class="response-line" viewBox="0 0 360 62" role="img" aria-label="Augmented-head uncertainty across all three instruction wordings"></svg></div><div class="success-readout"><span>Observed task success</span><strong id="success-value">0%</strong></div><p class="small-print">Relative uncertainty scores, scaled between 0 and 1 for each head across all tasks and wordings.</p></div>
+        </div>
+        <p class="figure-note">We evaluate uncertainty at the <strong>first observation</strong> of each rollout, keeping images and proprioception fixed across wordings to isolate changes in language conditioning. Values are medians over 80 held-out rollouts per task and wording.<span class="paper-reference">Paper: Section 4.2 · Appendix A.8</span></p>
+        <details class="paper-detail"><summary>All estimators, averaged over the ten tasks <span aria-hidden="true">+</span></summary><figure class="compact-figure"><picture><source media="(max-width: 600px)" srcset="static/figures/language-ambiguity-mobile.svg?v=20261015-4" width="630" height="840"><img src="static/figures/language-ambiguity.svg?v=20261015-4" loading="eager" decoding="async" fetchpriority="low" width="1200" height="480" alt="Mean success rates and normalized uncertainty across instruction wordings, comparing plain and augmented heads."></picture><figcaption>The augmented head strengthens the response to language ambiguity for every estimator except DECU in this study. However, our augmented head does not prevent BayesDiff’s variance collapse: its response to language ambiguity weakens with more Euler steps.<span class="paper-reference">Paper: Appendix A.8 · Euler-step ablation</span></figcaption></figure></details>
+      </div>
+    </section>
+
+    <section class="section failure-section" id="failure" aria-labelledby="failure-title">
+      <div class="container">
+        <div class="section-intro"><div><div class="eyebrow">2. Failure prediction</div><h3 class="section-title" id="failure-title">Predicting failures<br>before they occur</h3></div><p><strong>Our uncertainty estimators can warn that a rollout is likely to fail before it ends.</strong> A useful alarm flags a failing rollout early, leaving time to intervene. Each method raises an alarm when its score crosses a calibrated threshold.</p></div>
+        <div class="rollout-demo failure-gallery">
+          <div class="rollout-toolbar"><div class="failure-task-control"><label class="tiny-label" for="failure-task">EXPLORE A TASK</label><select id="failure-task"></select></div><span id="failure-recording-kind" class="recording-kind" hidden></span><div id="failure-outcome-controls" class="segmented" role="group" aria-label="Rollout outcome"><button data-outcome="failure" aria-pressed="true">Failed rollout</button><button data-outcome="success" aria-pressed="false">Successful rollout</button></div></div>
+          <div class="rollout-grid">
+            <div class="rollout-camera"><div class="failure-video-wrap"><video id="rollout-video" controls playsinline preload="none" src="static/media/failure/libero-70-failure.mp4?v=20261015-c23" poster="static/media/failure/libero-70-failure.webp" aria-label="Robot rollout synchronized with measured uncertainty scores"></video><span id="failure-loading" hidden>Loading video…</span></div><div class="failure-video-meta"><span>External camera · Wrist inset</span><span id="decision-label">Decision 1</span></div><p id="rollout-task" class="rollout-task"></p><p id="failure-outcome" class="small-print"></p></div>
+            <div class="rollout-chart failure-comparison"><div class="comparison-control"><label for="failure-baseline">Compare with</label><select id="failure-baseline"></select></div>
+              <div class="failure-score-panel"><div class="failure-score-heading"><span class="method-name"><i class="dot teal"></i>CoMP-UKF</span><output id="failure-ours-value"></output></div><canvas id="failure-ours-chart" aria-label="CoMP-UKF uncertainty and its calibrated failure threshold"></canvas><div class="failure-score-footer"><span id="failure-ours-threshold"></span><span id="failure-ours-status" class="alarm-status" aria-live="polite"></span></div></div>
+              <div class="failure-score-panel"><div class="failure-score-heading"><span id="failure-baseline-name" class="method-name"></span><output id="failure-baseline-value"></output></div><canvas id="failure-baseline-chart" aria-label="Selected estimator uncertainty and its calibrated failure threshold"></canvas><div class="failure-score-footer"><span id="failure-baseline-threshold"></span><span id="failure-baseline-status" class="alarm-status" aria-live="polite"></span></div></div>
+              <p class="failure-chart-note">For readability, each estimator’s scores are nonlinearly rescaled to place its calibrated failure threshold at 0.5. Alarm decisions are unchanged; values are not failure probabilities.</p>
+            </div>
+          </div>
+        </div>
+        <p class="figure-note">Explore selected success and failure examples. Play or scrub a rollout to follow each estimator’s uncertainty and first alarm. All methods score the same recorded policy observations; changing the estimator keeps the video fixed.<span class="paper-reference">Paper: Section 4.3 · Appendix A.9</span></p>
+        <details class="paper-detail failure-results" id="failure-results"><summary>Across both benchmarks <span aria-hidden="true">+</span></summary><div class="failure-results-heading"><div><h3>Our method is stronger than BayesDiff<br>and competitive with other post-hoc estimators</h3></div><p><strong>CoMP-UKF improves failure detection over BayesDiff and matches or exceeds several post-hoc uncertainty estimators.</strong> Timestep-wise accuracy rewards correct detections made early in a rollout.</p></div><figure><img src="static/figures/failure-detection.svg?v=20261016-font-fix" loading="lazy" decoding="async" width="1500" height="580" alt="Means and standard deviations for timestep-wise accuracy, balanced accuracy and normalized detection time on robomimic and LIBERO-90, comparing all post-hoc estimators and two trained-ensemble references."><figcaption>Higher accuracy and lower detection time are better. Mean and standard deviation over five sampling seeds. CoMP uses the augmented head; post-hoc baselines use the plain head. Hatched bars are trained-ensemble references, evaluated on robomimic. CoMP-EKF is less effective on LIBERO-90.</figcaption></figure></details>
+      </div>
+    </section>
+
+    <section class="section selection-section" id="selection" aria-labelledby="selection-title">
+      <div class="container selection-grid"><div><div class="eyebrow">3. Learning from fewer demonstrations</div><h3 class="section-title" id="selection-title">Choose what’s worth<br>learning from</h3><p class="section-copy">Use the pre-trained policy’s uncertainty to select demonstrations for data-efficient adaptation to new tasks. On LIBERO-10, <strong>CoMP-UKF reaches the target success rate with fewer demonstrations and achieves the largest mean gain in the main comparison.</strong></p><div class="gain-stat"><strong>+3.5<span>pp</span></strong><p>mean success-rate gain<br>over random selection</p></div><p class="small-print">Averaged across budgets and all ten tasks, over five trained policies. CoMP uses the augmented head; post-hoc baselines use the plain head. CoMP-EKF shows little benefit, possibly because its local linearization misses nonlinear effects captured by CoMP-UKF’s unscented transform.</p></div><figure class="selection-figure"><img src="static/figures/demonstration-selection.svg?v=20261016-1" loading="eager" decoding="async" fetchpriority="low" width="740" height="700" alt="Demonstrations required to reach a target success rate and mean gain over random selection on LIBERO-10."><figcaption>Target: 90% of random selection’s success at 250 demonstrations. Means and standard deviations over five policies; fewer demonstrations and larger gains are better.<span class="paper-reference">Paper: Section 4.4 · Appendix A.10</span></figcaption></figure></div>
+
+    </section>
+
+    </section>
+
+  </main>
+  <footer class="footer"><div class="container footer-row"><a href="#top" class="brand"><img src="static/media/mark.svg" width="28" height="28" alt="">CoMP.</a><p>Adapted from <a href="https://nerfies.github.io/" rel="noreferrer">Nerfies</a>.<br>Website design under <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noreferrer">CC BY-SA 4.0</a>.</p><a class="back-top" href="#top" aria-label="Back to top">↑</a></div></footer>
+  <noscript><p class="noscript-note">Interactive examples require JavaScript. Videos, figures, and the written explanation remain available.</p></noscript>
+</body>
+</html>
