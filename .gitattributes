@@ -1,0 +1,4 @@
+* text=auto
+*.mp4 -text -filter -diff -merge
+*.webp -text -filter -diff -merge
+*.ttf -text -filter -diff -merge

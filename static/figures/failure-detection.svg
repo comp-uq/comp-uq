@@ -1,0 +1,4436 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1080pt" height="417.6pt" viewBox="0 0 1080 417.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 417.6
+L 1080 417.6
+L 1080 0
+L 0 0
+L 0 417.6
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 91.8 154.593882
+L 372.662069 154.593882
+L 372.662069 33.408
+L 91.8 33.408
+L 91.8 154.593882
+z
+" style="fill: none; opacity: 0"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1">
+      <path d="M 91.8 154.593882
+L 372.662069 154.593882
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <!-- 0.50 -->
+      <g style="fill: #56665e" transform="translate(65.739688 158.636382) scale(0.11 -0.11)">
+       <defs>
+        <path id="Manrope-Regular-30" d="M 1952 -96
+Q 1526 -96 1185 102
+Q 845 301 646 641
+Q 448 982 448 1408
+L 448 3200
+Q 448 3626 646 3966
+Q 845 4307 1185 4505
+Q 1526 4704 1952 4704
+Q 2378 4704 2718 4505
+Q 3059 4307 3257 3966
+Q 3456 3626 3456 3200
+L 3456 1408
+Q 3456 982 3257 641
+Q 3059 301 2718 102
+Q 2378 -96 1952 -96
+z
+M 1952 358
+Q 2237 358 2470 497
+Q 2704 637 2841 870
+Q 2979 1104 2979 1386
+L 2979 3222
+Q 2979 3507 2841 3740
+Q 2704 3974 2470 4113
+Q 2237 4253 1952 4253
+Q 1667 4253 1433 4113
+Q 1200 3974 1062 3740
+Q 925 3507 925 3222
+L 925 1386
+Q 925 1104 1062 870
+Q 1200 637 1433 497
+Q 1667 358 1952 358
+z
+" transform="scale(0.015625)"/>
+        <path id="Manrope-Regular-2e" d="M 538 0
+L 538 547
+L 1085 547
+L 1085 0
+L 538 0
+z
+" transform="scale(0.015625)"/>
+        <path id="Manrope-Regular-35" d="M 1808 -96
+Q 1450 -96 1146 51
+Q 842 198 627 457
+Q 413 717 320 1053
+L 771 1174
+Q 832 925 992 744
+Q 1152 563 1368 464
+Q 1584 365 1821 365
+Q 2128 365 2373 513
+Q 2618 662 2762 908
+Q 2906 1155 2906 1450
+Q 2906 1754 2755 1998
+Q 2605 2243 2358 2387
+Q 2112 2531 1821 2531
+Q 1494 2531 1257 2388
+Q 1021 2246 880 2032
+L 451 2211
+L 592 4608
+L 3053 4608
+L 3053 4157
+L 800 4157
+L 1034 4378
+L 909 2333
+L 790 2490
+Q 989 2717 1270 2845
+Q 1552 2973 1862 2973
+Q 2288 2973 2630 2769
+Q 2973 2566 3174 2220
+Q 3376 1875 3376 1450
+Q 3376 1027 3161 676
+Q 2947 326 2592 115
+Q 2237 -96 1808 -96
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(144.100021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_3">
+      <path d="M 91.8 130.356706
+L 372.662069 130.356706
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <!-- 0.55 -->
+      <g style="fill: #56665e" transform="translate(66.097188 134.399206) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(144.100021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_5">
+      <path d="M 91.8 106.119529
+L 372.662069 106.119529
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <!-- 0.60 -->
+      <g style="fill: #56665e" transform="translate(65.267031 110.162029) scale(0.11 -0.11)">
+       <defs>
+        <path id="Manrope-Regular-36" d="M 2006 -96
+Q 1574 -96 1220 113
+Q 867 323 657 683
+Q 448 1043 448 1494
+L 448 3091
+Q 448 3555 656 3918
+Q 864 4282 1224 4491
+Q 1584 4701 2042 4701
+Q 2435 4701 2772 4528
+Q 3110 4355 3325 4045
+L 2963 3747
+Q 2816 3978 2573 4115
+Q 2330 4253 2042 4253
+Q 1718 4253 1465 4096
+Q 1213 3939 1069 3684
+Q 925 3430 925 3133
+L 925 2128
+L 806 2262
+Q 1008 2579 1336 2774
+Q 1664 2970 2051 2970
+Q 2480 2970 2822 2766
+Q 3165 2563 3366 2217
+Q 3568 1872 3568 1443
+Q 3568 1018 3355 669
+Q 3142 320 2788 112
+Q 2435 -96 2006 -96
+z
+M 2006 362
+Q 2307 362 2555 506
+Q 2803 650 2948 896
+Q 3094 1142 3094 1443
+Q 3094 1744 2948 1992
+Q 2803 2240 2556 2385
+Q 2310 2531 2010 2531
+Q 1709 2531 1462 2385
+Q 1216 2240 1070 1992
+Q 925 1744 925 1443
+Q 925 1146 1069 899
+Q 1213 653 1459 507
+Q 1706 362 2006 362
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <path d="M 91.8 81.882353
+L 372.662069 81.882353
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <!-- 0.65 -->
+      <g style="fill: #56665e" transform="translate(65.624531 85.924853) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <path d="M 91.8 57.645176
+L 372.662069 57.645176
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <!-- 0.70 -->
+      <g style="fill: #56665e" transform="translate(66.569844 61.687676) scale(0.11 -0.11)">
+       <defs>
+        <path id="Manrope-Regular-37" d="M 694 0
+L 2390 4150
+L 256 4150
+L 256 4608
+L 2893 4608
+L 2893 4150
+L 1200 0
+L 694 0
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(136.550034 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <path d="M 91.8 33.408
+L 372.662069 33.408
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <!-- 0.75 -->
+      <g style="fill: #56665e" transform="translate(66.927344 37.4505) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(136.550034 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 91.8 154.593882
+L 91.8 33.408
+" style="fill: none; stroke: #dce2d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 101.445768 396.965647
+L 121.8721 396.965647
+L 121.8721 128.607309
+L 101.445768 128.607309
+z
+" clip-path="url(#p25969fd000)" style="fill: #c8774e; stroke: #c8774e; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <!-- 0.554 -->
+    <g style="fill: #17312f" transform="translate(114.133934 117.326765) rotate(-90) scale(0.1 -0.1)">
+     <defs>
+      <path id="Manrope-Regular-34" d="M 2477 0
+L 2477 893
+L 320 893
+L 320 1341
+L 1862 4608
+L 2390 4608
+L 848 1341
+L 2477 1341
+L 2477 2685
+L 2950 2685
+L 2950 1341
+L 3453 1341
+L 3453 893
+L 2950 893
+L 2950 0
+L 2477 0
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(201.850021 0)"/>
+    </g>
+   </g>
+   <g id="patch_5">
+    <path d="M 129.815674 396.965647
+L 150.242006 396.965647
+L 150.242006 91.08614
+L 129.815674 91.08614
+z
+" clip-path="url(#p25969fd000)" style="fill: #c8a95b; stroke: #c8a95b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_8">
+    <!-- 0.631 -->
+    <g style="fill: #64736d" transform="translate(142.50384 89.641722) rotate(-90) scale(0.1 -0.1)">
+     <defs>
+      <path id="Manrope-Regular-33" d="M 1686 -93
+Q 1344 -93 1056 28
+Q 768 150 560 376
+Q 352 602 256 915
+L 704 1050
+Q 819 707 1083 531
+Q 1347 355 1680 362
+Q 1987 368 2209 499
+Q 2432 630 2550 864
+Q 2669 1098 2669 1405
+Q 2669 1875 2395 2161
+Q 2122 2448 1674 2448
+Q 1549 2448 1411 2414
+Q 1274 2381 1155 2320
+L 918 2694
+L 2710 4349
+L 2787 4157
+L 438 4157
+L 438 4608
+L 3101 4608
+L 3101 4150
+L 1539 2659
+L 1533 2845
+Q 2013 2906 2377 2736
+Q 2742 2566 2948 2219
+Q 3155 1872 3155 1405
+Q 3155 963 2964 625
+Q 2774 288 2441 97
+Q 2109 -93 1686 -93
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-31" d="M 1251 0
+L 1251 4083
+L 384 3562
+L 384 4090
+L 1251 4608
+L 1728 4608
+L 1728 0
+L 1251 0
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-31" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 158.18558 396.965647
+L 178.611912 396.965647
+L 178.611912 88.350456
+L 158.18558 88.350456
+z
+" clip-path="url(#p25969fd000)" style="fill: #9795b3; stroke: #9795b3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_9">
+    <!-- 0.637 -->
+    <g style="fill: #64736d" transform="translate(170.873746 85.342144) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 186.555486 396.965647
+L 206.981818 396.965647
+L 206.981818 87.610871
+L 186.555486 87.610871
+z
+" clip-path="url(#p25969fd000)" style="fill: #637ca3; stroke: #637ca3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_10">
+    <!-- 0.638 -->
+    <g style="fill: #64736d" transform="translate(199.243652 85.197406) rotate(-90) scale(0.1 -0.1)">
+     <defs>
+      <path id="Manrope-Regular-38" d="M 1853 -96
+Q 1421 -96 1089 77
+Q 758 250 571 562
+Q 384 874 384 1293
+Q 384 1722 592 2056
+Q 800 2390 1226 2563
+L 1219 2378
+Q 864 2509 678 2806
+Q 493 3104 493 3466
+Q 493 3850 669 4126
+Q 845 4403 1150 4553
+Q 1456 4704 1853 4704
+Q 2250 4704 2557 4553
+Q 2864 4403 3040 4126
+Q 3216 3850 3216 3466
+Q 3216 3104 3038 2809
+Q 2861 2515 2496 2378
+L 2480 2563
+Q 2906 2394 3118 2058
+Q 3331 1722 3331 1293
+Q 3331 874 3142 562
+Q 2954 250 2621 77
+Q 2288 -96 1853 -96
+z
+M 1853 355
+Q 2288 355 2560 596
+Q 2832 838 2832 1293
+Q 2832 1754 2563 1992
+Q 2294 2230 1853 2230
+Q 1411 2230 1145 1992
+Q 880 1754 880 1293
+Q 880 838 1149 596
+Q 1418 355 1853 355
+z
+M 1853 2685
+Q 2237 2685 2477 2881
+Q 2717 3078 2717 3466
+Q 2717 3853 2477 4046
+Q 2237 4240 1853 4240
+Q 1469 4240 1230 4046
+Q 992 3853 992 3466
+Q 992 3078 1230 2881
+Q 1469 2685 1853 2685
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 214.925392 396.965647
+L 235.351724 396.965647
+L 235.351724 83.881304
+L 214.925392 83.881304
+z
+" clip-path="url(#p25969fd000)" style="fill: #7d9a65; stroke: #7d9a65; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <!-- 0.646 -->
+    <g style="fill: #64736d" transform="translate(227.613558 82.534114) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(207.350037 0)"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 243.295298 396.965647
+L 263.72163 396.965647
+L 263.72163 87.345358
+L 243.295298 87.345358
+z
+" clip-path="url(#p25969fd000)" style="fill: #62b6a3; stroke: #62b6a3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_12">
+    <!-- 0.639 -->
+    <g style="fill: #17312f" transform="translate(255.983464 82.980903) rotate(-90) scale(0.1 -0.1)">
+     <defs>
+      <path id="Manrope-Regular-39" d="M 1965 4701
+Q 2400 4701 2753 4491
+Q 3107 4282 3315 3922
+Q 3523 3562 3523 3114
+L 3523 1514
+Q 3523 1053 3315 688
+Q 3107 323 2747 113
+Q 2387 -96 1930 -96
+Q 1536 -96 1201 78
+Q 867 253 650 560
+L 1008 858
+Q 1155 630 1400 492
+Q 1645 355 1930 355
+Q 2256 355 2507 510
+Q 2758 666 2904 920
+Q 3050 1174 3050 1472
+L 3050 2477
+L 3165 2342
+Q 2966 2026 2638 1830
+Q 2310 1635 1920 1635
+Q 1494 1635 1150 1840
+Q 806 2045 606 2390
+Q 406 2736 406 3162
+Q 406 3587 617 3937
+Q 829 4288 1184 4494
+Q 1539 4701 1965 4701
+z
+M 1965 4246
+Q 1664 4246 1417 4100
+Q 1171 3955 1025 3708
+Q 880 3462 880 3162
+Q 880 2861 1024 2614
+Q 1168 2368 1414 2222
+Q 1661 2077 1962 2077
+Q 2262 2077 2510 2222
+Q 2758 2368 2904 2614
+Q 3050 2861 3050 3162
+Q 3050 3459 2904 3705
+Q 2758 3952 2512 4099
+Q 2266 4246 1965 4246
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-39" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 271.665204 396.965647
+L 292.091536 396.965647
+L 292.091536 82.780706
+L 271.665204 82.780706
+z
+" clip-path="url(#p25969fd000)" style="fill: #007a69; stroke: #007a69; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_13">
+    <!-- 0.648 -->
+    <g style="fill: #17312f" transform="translate(284.35337 81.448024) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(207.350037 0)"/>
+    </g>
+   </g>
+   <g id="patch_11">
+    <path d="M 317.057053 396.965647
+L 337.483386 396.965647
+L 337.483386 70.264863
+L 317.057053 70.264863
+z
+" clip-path="url(#p25969fd000)" style="fill: url(#hdfbeed1945); stroke: #a18d53; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_14">
+    <!-- 0.674 -->
+    <g style="fill: #64736d" transform="translate(329.745219 67.556828) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(198.600037 0)"/>
+    </g>
+   </g>
+   <g id="patch_12">
+    <path d="M 345.426959 396.965647
+L 365.853292 396.965647
+L 365.853292 63.766989
+L 345.426959 63.766989
+z
+" clip-path="url(#p25969fd000)" style="fill: url(#hb6971bb43d); stroke: #718465; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_15">
+    <!-- 0.687 -->
+    <g style="fill: #64736d" transform="translate(358.115125 61.94936) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(206.450027 0)"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <!-- robomimic -->
+    <g style="fill: #17312f" transform="translate(38.845086 127.706488) rotate(-90) scale(0.13 -0.13)">
+     <defs>
+      <path id="Manrope-Bold-72" d="M 448 0
+L 448 3456
+L 1130 3456
+L 1130 2614
+L 1046 2723
+Q 1110 2896 1217 3038
+Q 1325 3181 1475 3274
+Q 1603 3360 1758 3409
+Q 1914 3459 2077 3470
+Q 2240 3482 2394 3456
+L 2394 2736
+Q 2240 2781 2040 2765
+Q 1840 2749 1680 2653
+Q 1520 2566 1419 2432
+Q 1318 2298 1270 2126
+Q 1222 1955 1222 1757
+L 1222 0
+L 448 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-6f" d="M 1974 -96
+Q 1456 -96 1069 137
+Q 682 371 469 782
+Q 256 1194 256 1728
+Q 256 2272 473 2681
+Q 691 3091 1078 3321
+Q 1466 3552 1974 3552
+Q 2496 3552 2883 3318
+Q 3270 3085 3484 2673
+Q 3699 2262 3699 1728
+Q 3699 1190 3483 779
+Q 3267 368 2880 136
+Q 2493 -96 1974 -96
+z
+M 1974 627
+Q 2435 627 2659 934
+Q 2883 1242 2883 1728
+Q 2883 2230 2656 2529
+Q 2429 2829 1974 2829
+Q 1664 2829 1464 2689
+Q 1264 2550 1168 2302
+Q 1072 2054 1072 1728
+Q 1072 1226 1301 926
+Q 1530 627 1974 627
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-62" d="M 2109 -96
+Q 1603 -96 1260 144
+Q 918 384 745 798
+Q 573 1213 573 1728
+Q 573 2250 745 2662
+Q 918 3075 1252 3313
+Q 1587 3552 2080 3552
+Q 2570 3552 2930 3313
+Q 3290 3075 3488 2664
+Q 3686 2253 3686 1728
+Q 3686 1210 3491 797
+Q 3296 384 2941 144
+Q 2586 -96 2109 -96
+z
+M 442 0
+L 442 4608
+L 1219 4608
+L 1219 2426
+L 1123 2426
+L 1123 0
+L 442 0
+z
+M 1990 595
+Q 2291 595 2486 745
+Q 2682 896 2776 1153
+Q 2870 1411 2870 1728
+Q 2870 2042 2774 2299
+Q 2678 2557 2476 2709
+Q 2275 2861 1965 2861
+Q 1670 2861 1484 2718
+Q 1299 2576 1211 2321
+Q 1123 2067 1123 1728
+Q 1123 1392 1211 1136
+Q 1299 880 1489 737
+Q 1680 595 1990 595
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-6d" d="M 4598 0
+L 4598 2099
+Q 4598 2454 4422 2654
+Q 4246 2854 3946 2854
+Q 3760 2854 3613 2769
+Q 3466 2685 3379 2520
+Q 3293 2355 3293 2128
+L 2950 2330
+Q 2947 2688 3112 2961
+Q 3277 3235 3558 3388
+Q 3840 3542 4186 3542
+Q 4758 3542 5064 3198
+Q 5370 2854 5370 2294
+L 5370 0
+L 4598 0
+z
+M 442 0
+L 442 3456
+L 1123 3456
+L 1123 2384
+L 1219 2384
+L 1219 0
+L 442 0
+z
+M 2525 0
+L 2525 2090
+Q 2525 2451 2349 2652
+Q 2173 2854 1869 2854
+Q 1574 2854 1396 2652
+Q 1219 2451 1219 2128
+L 874 2358
+Q 874 2694 1040 2963
+Q 1206 3232 1489 3387
+Q 1773 3542 2125 3542
+Q 2512 3542 2773 3377
+Q 3034 3213 3163 2929
+Q 3293 2646 3293 2291
+L 3293 0
+L 2525 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-69" d="M 512 3981
+L 512 4688
+L 1283 4688
+L 1283 3981
+L 512 3981
+z
+M 512 0
+L 512 3456
+L 1283 3456
+L 1283 0
+L 512 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-63" d="M 1949 -96
+Q 1414 -96 1036 142
+Q 659 381 459 793
+Q 259 1206 256 1728
+Q 259 2259 465 2670
+Q 672 3082 1053 3317
+Q 1434 3552 1958 3552
+Q 2547 3552 2955 3256
+Q 3363 2960 3488 2448
+L 2720 2240
+Q 2630 2518 2422 2673
+Q 2214 2829 1949 2829
+Q 1648 2829 1453 2686
+Q 1258 2544 1165 2294
+Q 1072 2045 1072 1728
+Q 1072 1235 1293 931
+Q 1514 627 1949 627
+Q 2256 627 2433 768
+Q 2611 909 2701 1174
+L 3488 998
+Q 3328 470 2928 187
+Q 2528 -96 1949 -96
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Bold-72"/>
+     <use xlink:href="#Manrope-Bold-6f" transform="translate(39.900009 0)"/>
+     <use xlink:href="#Manrope-Bold-62" transform="translate(101.700012 0)"/>
+     <use xlink:href="#Manrope-Bold-6f" transform="translate(163.300018 0)"/>
+     <use xlink:href="#Manrope-Bold-6d" transform="translate(225.100021 0)"/>
+     <use xlink:href="#Manrope-Bold-69" transform="translate(315.000031 0)"/>
+     <use xlink:href="#Manrope-Bold-6d" transform="translate(343.050034 0)"/>
+     <use xlink:href="#Manrope-Bold-69" transform="translate(432.950043 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(461.000046 0)"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <!-- Timestep-wise accuracy  ↑ -->
+    <g style="fill: #17312f" transform="translate(91.8 18.408) scale(0.13 -0.13)">
+     <defs>
+      <path id="Manrope-Bold-54" d="M 1555 0
+L 1555 3885
+L 64 3885
+L 64 4608
+L 3818 4608
+L 3818 3885
+L 2326 3885
+L 2326 0
+L 1555 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-65" d="M 2019 -96
+Q 1494 -96 1097 131
+Q 701 358 478 761
+Q 256 1165 256 1690
+Q 256 2256 473 2673
+Q 691 3091 1078 3321
+Q 1466 3552 1974 3552
+Q 2512 3552 2888 3301
+Q 3264 3050 3446 2592
+Q 3629 2134 3584 1514
+L 2819 1514
+L 2819 1795
+Q 2816 2358 2621 2617
+Q 2426 2877 2006 2877
+Q 1533 2877 1302 2584
+Q 1072 2291 1072 1728
+Q 1072 1203 1302 915
+Q 1533 627 1974 627
+Q 2259 627 2465 753
+Q 2672 880 2784 1120
+L 3546 890
+Q 3347 422 2932 163
+Q 2518 -96 2019 -96
+z
+M 829 1514
+L 829 2096
+L 3206 2096
+L 3206 1514
+L 829 1514
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-73" d="M 1782 -96
+Q 1142 -96 742 192
+Q 342 480 256 1002
+L 1043 1123
+Q 1104 867 1312 720
+Q 1520 573 1837 573
+Q 2115 573 2267 683
+Q 2419 794 2419 986
+Q 2419 1104 2363 1176
+Q 2307 1248 2118 1315
+Q 1930 1382 1539 1485
+Q 1104 1600 848 1733
+Q 592 1866 480 2048
+Q 368 2230 368 2490
+Q 368 2813 537 3053
+Q 707 3293 1011 3422
+Q 1315 3552 1728 3552
+Q 2131 3552 2443 3427
+Q 2755 3302 2947 3072
+Q 3139 2842 3184 2531
+L 2397 2390
+Q 2368 2611 2197 2739
+Q 2026 2867 1741 2883
+Q 1469 2899 1302 2801
+Q 1136 2704 1136 2528
+Q 1136 2429 1203 2358
+Q 1270 2288 1473 2217
+Q 1677 2147 2080 2045
+Q 2493 1939 2741 1803
+Q 2989 1667 3099 1478
+Q 3210 1290 3210 1021
+Q 3210 499 2830 201
+Q 2451 -96 1782 -96
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-74" d="M 2474 0
+Q 2131 -64 1803 -56
+Q 1475 -48 1216 65
+Q 957 179 822 426
+Q 704 650 697 883
+Q 691 1117 691 1411
+L 691 4416
+L 1459 4416
+L 1459 1456
+Q 1459 1248 1464 1091
+Q 1469 934 1530 835
+Q 1645 643 1897 620
+Q 2150 598 2474 646
+L 2474 0
+z
+M 64 2851
+L 64 3456
+L 2474 3456
+L 2474 2851
+L 64 2851
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-70" d="M 2109 -96
+Q 1603 -96 1260 144
+Q 918 384 745 798
+Q 573 1213 573 1728
+Q 573 2250 745 2662
+Q 918 3075 1252 3313
+Q 1587 3552 2080 3552
+Q 2570 3552 2930 3313
+Q 3290 3075 3488 2664
+Q 3686 2253 3686 1728
+Q 3686 1210 3491 797
+Q 3296 384 2941 144
+Q 2586 -96 2109 -96
+z
+M 442 -1536
+L 442 3456
+L 1123 3456
+L 1123 1030
+L 1219 1030
+L 1219 -1536
+L 442 -1536
+z
+M 1990 595
+Q 2291 595 2486 745
+Q 2682 896 2776 1153
+Q 2870 1411 2870 1728
+Q 2870 2042 2774 2299
+Q 2678 2557 2476 2709
+Q 2275 2861 1965 2861
+Q 1670 2861 1484 2718
+Q 1299 2576 1211 2321
+Q 1123 2067 1123 1728
+Q 1123 1392 1211 1136
+Q 1299 880 1489 737
+Q 1680 595 1990 595
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-2d" d="M 384 1715
+L 384 2320
+L 2304 2320
+L 2304 1715
+L 384 1715
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-77" d="M 1184 0
+L 128 3462
+L 883 3456
+L 1558 1238
+L 2243 3456
+L 2893 3456
+L 3574 1238
+L 4253 3456
+L 5008 3456
+L 3952 0
+L 3350 0
+L 2566 2378
+L 1786 0
+L 1184 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-20" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-61" d="M 1414 -96
+Q 1040 -96 781 46
+Q 522 189 389 425
+Q 256 662 256 947
+Q 256 1197 339 1397
+Q 422 1597 595 1742
+Q 768 1888 1043 1981
+Q 1251 2048 1531 2102
+Q 1811 2157 2139 2203
+Q 2467 2250 2826 2304
+L 2550 2147
+Q 2554 2506 2390 2675
+Q 2227 2845 1840 2845
+Q 1606 2845 1388 2736
+Q 1171 2627 1085 2362
+L 381 2582
+Q 509 3021 869 3286
+Q 1229 3552 1840 3552
+Q 2301 3552 2651 3401
+Q 3002 3251 3171 2909
+Q 3264 2726 3283 2536
+Q 3302 2346 3302 2122
+L 3302 0
+L 2627 0
+L 2627 749
+L 2739 627
+Q 2506 253 2194 78
+Q 1882 -96 1414 -96
+z
+M 1568 518
+Q 1830 518 2016 611
+Q 2202 704 2312 838
+Q 2422 973 2461 1091
+Q 2522 1238 2530 1428
+Q 2538 1619 2538 1738
+L 2774 1667
+Q 2426 1613 2176 1571
+Q 1926 1530 1747 1493
+Q 1568 1456 1430 1411
+Q 1296 1363 1203 1299
+Q 1110 1235 1060 1152
+Q 1011 1069 1011 957
+Q 1011 829 1075 731
+Q 1139 634 1262 576
+Q 1386 518 1568 518
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-75" d="M 1744 -99
+Q 1360 -99 1110 29
+Q 861 157 713 355
+Q 566 554 496 778
+Q 426 1002 405 1202
+Q 384 1402 384 1526
+L 384 3456
+L 1165 3456
+L 1165 1792
+Q 1165 1632 1187 1432
+Q 1210 1232 1291 1048
+Q 1373 864 1534 745
+Q 1696 627 1971 627
+Q 2118 627 2262 675
+Q 2406 723 2523 840
+Q 2640 957 2710 1161
+Q 2781 1366 2781 1680
+L 3238 1485
+Q 3238 1043 3067 684
+Q 2896 326 2563 113
+Q 2230 -99 1744 -99
+z
+M 2874 0
+L 2874 1072
+L 2781 1072
+L 2781 3456
+L 3555 3456
+L 3555 0
+L 2874 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-79" d="M 902 -1536
+L 1568 291
+L 1581 -246
+L 74 3456
+L 877 3456
+L 1946 717
+L 1741 717
+L 2781 3456
+L 3552 3456
+L 1626 -1536
+L 902 -1536
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-2191" d="M 2006 0
+L 2006 3645
+L 1139 2778
+L 768 3146
+L 2304 4682
+L 3843 3146
+L 3472 2778
+L 2611 3642
+L 2611 0
+L 2006 0
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Bold-54"/>
+     <use xlink:href="#Manrope-Bold-69" transform="translate(60.650009 0)"/>
+     <use xlink:href="#Manrope-Bold-6d" transform="translate(88.700012 0)"/>
+     <use xlink:href="#Manrope-Bold-65" transform="translate(178.600021 0)"/>
+     <use xlink:href="#Manrope-Bold-73" transform="translate(238.800034 0)"/>
+     <use xlink:href="#Manrope-Bold-74" transform="translate(292.950043 0)"/>
+     <use xlink:href="#Manrope-Bold-65" transform="translate(336.250046 0)"/>
+     <use xlink:href="#Manrope-Bold-70" transform="translate(396.450058 0)"/>
+     <use xlink:href="#Manrope-Bold-2d" transform="translate(458.050064 0)"/>
+     <use xlink:href="#Manrope-Bold-77" transform="translate(500.050064 0)"/>
+     <use xlink:href="#Manrope-Bold-69" transform="translate(580.300079 0)"/>
+     <use xlink:href="#Manrope-Bold-73" transform="translate(608.350082 0)"/>
+     <use xlink:href="#Manrope-Bold-65" transform="translate(662.500092 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(722.700104 0)"/>
+     <use xlink:href="#Manrope-Bold-61" transform="translate(742.700104 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(800.30011 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(857.850113 0)"/>
+     <use xlink:href="#Manrope-Bold-75" transform="translate(915.400116 0)"/>
+     <use xlink:href="#Manrope-Bold-72" transform="translate(977.950119 0)"/>
+     <use xlink:href="#Manrope-Bold-61" transform="translate(1017.850128 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(1075.450134 0)"/>
+     <use xlink:href="#Manrope-Bold-79" transform="translate(1133.000137 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(1188.95015 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(1208.95015 0)"/>
+     <use xlink:href="#Manrope-Bold-2191" transform="translate(1228.95015 0)"/>
+    </g>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 111.658934 138.918367
+L 111.658934 118.296252
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_13">
+    <defs>
+     <path id="m69bf99cc0c" d="M 2.5 0
+L -2.5 -0
+" style="stroke: #435a51"/>
+    </defs>
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="111.658934" y="138.918367" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="111.658934" y="118.296252" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 140.02884 91.56107
+L 140.02884 90.61121
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_15">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="140.02884" y="91.56107" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_16">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="140.02884" y="90.61121" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_3">
+    <path d="M 168.398746 90.389281
+L 168.398746 86.311631
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_17">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="168.398746" y="90.389281" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_18">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="168.398746" y="86.311631" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_4">
+    <path d="M 196.768652 89.054848
+L 196.768652 86.166893
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_19">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="196.768652" y="89.054848" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_20">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="196.768652" y="86.166893" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_5">
+    <path d="M 225.138558 84.259006
+L 225.138558 83.503601
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_21">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="225.138558" y="84.259006" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="225.138558" y="83.503601" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_6">
+    <path d="M 253.508464 90.740327
+L 253.508464 83.95039
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_23">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="253.508464" y="90.740327" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_24">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="253.508464" y="83.95039" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_7">
+    <path d="M 281.87837 83.143901
+L 281.87837 82.417511
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_25">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="281.87837" y="83.143901" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_26">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="281.87837" y="82.417511" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_8">
+    <path d="M 327.270219 72.003411
+L 327.270219 68.526316
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_27">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="327.270219" y="72.003411" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_28">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="327.270219" y="68.526316" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_9">
+    <path d="M 355.640125 64.61513
+L 355.640125 62.918847
+" clip-path="url(#p25969fd000)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_29">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="355.640125" y="64.61513" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_30">
+    <g clip-path="url(#p25969fd000)">
+     <use xlink:href="#m69bf99cc0c" x="355.640125" y="62.918847" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_13">
+    <path d="M 440.068966 154.593882
+L 720.931034 154.593882
+L 720.931034 33.408
+L 440.068966 33.408
+L 440.068966 154.593882
+z
+" style="fill: none; opacity: 0"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_7">
+     <g id="line2d_31">
+      <path d="M 440.068966 154.593882
+L 720.931034 154.593882
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32"/>
+     <g id="text_18">
+      <!-- 0.55 -->
+      <g style="fill: #56665e" transform="translate(414.366153 158.636382) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(144.100021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_33">
+      <path d="M 440.068966 137.281613
+L 720.931034 137.281613
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_34"/>
+     <g id="text_19">
+      <!-- 0.60 -->
+      <g style="fill: #56665e" transform="translate(413.535997 141.324113) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_35">
+      <path d="M 440.068966 119.969345
+L 720.931034 119.969345
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_36"/>
+     <g id="text_20">
+      <!-- 0.65 -->
+      <g style="fill: #56665e" transform="translate(413.893497 124.011845) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_37">
+      <path d="M 440.068966 102.657076
+L 720.931034 102.657076
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_38"/>
+     <g id="text_21">
+      <!-- 0.70 -->
+      <g style="fill: #56665e" transform="translate(414.838809 106.699576) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(136.550034 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_39">
+      <path d="M 440.068966 85.344807
+L 720.931034 85.344807
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_40"/>
+     <g id="text_22">
+      <!-- 0.75 -->
+      <g style="fill: #56665e" transform="translate(415.196309 89.387307) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(136.550034 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_41">
+      <path d="M 440.068966 68.032538
+L 720.931034 68.032538
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_42"/>
+     <g id="text_23">
+      <!-- 0.80 -->
+      <g style="fill: #56665e" transform="translate(413.975997 72.075038) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-38" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(144.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_43">
+      <path d="M 440.068966 50.720269
+L 720.931034 50.720269
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_44"/>
+     <g id="text_24">
+      <!-- 0.85 -->
+      <g style="fill: #56665e" transform="translate(414.333497 54.762769) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-38" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(144.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_45">
+      <path d="M 440.068966 33.408
+L 720.931034 33.408
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_46"/>
+     <g id="text_25">
+      <!-- 0.90 -->
+      <g style="fill: #56665e" transform="translate(413.535997 37.4505) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-39" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_14">
+    <path d="M 440.068966 154.593882
+L 440.068966 33.408
+" style="fill: none; stroke: #dce2d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 449.714734 345.02884
+L 470.141066 345.02884
+L 470.141066 119.272247
+L 449.714734 119.272247
+z
+" clip-path="url(#pea9a108b95)" style="fill: #c8774e; stroke: #c8774e; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_26">
+    <!-- 0.652 -->
+    <g style="fill: #17312f" transform="translate(462.4029 105.988641) rotate(-90) scale(0.1 -0.1)">
+     <defs>
+      <path id="Manrope-Regular-32" d="M 320 3
+L 323 432
+L 2406 2314
+Q 2675 2557 2763 2776
+Q 2851 2995 2851 3235
+Q 2851 3520 2716 3750
+Q 2582 3981 2355 4117
+Q 2128 4253 1846 4253
+Q 1552 4253 1321 4112
+Q 1091 3971 958 3740
+Q 826 3510 829 3238
+L 349 3238
+Q 349 3658 547 3990
+Q 746 4323 1085 4513
+Q 1424 4704 1853 4704
+Q 2272 4704 2606 4507
+Q 2941 4310 3134 3976
+Q 3328 3642 3328 3232
+Q 3328 2944 3259 2725
+Q 3190 2506 3044 2318
+Q 2899 2131 2675 1933
+L 826 262
+L 752 454
+L 3328 454
+L 3328 3
+L 320 3
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(206.150024 0)"/>
+    </g>
+   </g>
+   <g id="patch_16">
+    <path d="M 478.084639 345.02884
+L 498.510972 345.02884
+L 498.510972 84.799402
+L 478.084639 84.799402
+z
+" clip-path="url(#pea9a108b95)" style="fill: #c8a95b; stroke: #c8a95b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_27">
+    <!-- 0.752 -->
+    <g style="fill: #64736d" transform="translate(490.772806 83.147413) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(194.300034 0)"/>
+    </g>
+   </g>
+   <g id="patch_17">
+    <path d="M 506.454545 345.02884
+L 526.880878 345.02884
+L 526.880878 82.811382
+L 506.454545 82.811382
+z
+" clip-path="url(#pea9a108b95)" style="fill: #9795b3; stroke: #9795b3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_28">
+    <!-- 0.757 -->
+    <g style="fill: #64736d" transform="translate(519.142712 79.248135) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(194.300034 0)"/>
+    </g>
+   </g>
+   <g id="patch_18">
+    <path d="M 534.824451 345.02884
+L 555.250784 345.02884
+L 555.250784 89.377333
+L 534.824451 89.377333
+z
+" clip-path="url(#pea9a108b95)" style="fill: #637ca3; stroke: #637ca3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_29">
+    <!-- 0.738 -->
+    <g style="fill: #64736d" transform="translate(547.512618 87.417432) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(191.850037 0)"/>
+    </g>
+   </g>
+   <g id="patch_19">
+    <path d="M 563.194357 345.02884
+L 583.62069 345.02884
+L 583.62069 77.670473
+L 563.194357 77.670473
+z
+" clip-path="url(#pea9a108b95)" style="fill: #7d9a65; stroke: #7d9a65; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_30">
+    <!-- 0.772 -->
+    <g style="fill: #64736d" transform="translate(575.882524 76.022184) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(186.750046 0)"/>
+    </g>
+   </g>
+   <g id="patch_20">
+    <path d="M 591.564263 345.02884
+L 611.990596 345.02884
+L 611.990596 81.732525
+L 591.564263 81.732525
+z
+" clip-path="url(#pea9a108b95)" style="fill: #62b6a3; stroke: #62b6a3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_31">
+    <!-- 0.760 -->
+    <g style="fill: #17312f" transform="translate(604.252429 76.487662) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-30" transform="translate(198.600037 0)"/>
+    </g>
+   </g>
+   <g id="patch_21">
+    <path d="M 619.934169 345.02884
+L 640.360502 345.02884
+L 640.360502 77.544853
+L 619.934169 77.544853
+z
+" clip-path="url(#pea9a108b95)" style="fill: #007a69; stroke: #007a69; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_32">
+    <!-- 0.773 -->
+    <g style="fill: #17312f" transform="translate(632.622335 76.201325) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(186.750046 0)"/>
+    </g>
+   </g>
+   <g id="patch_22">
+    <path d="M 665.326019 345.02884
+L 685.752351 345.02884
+L 685.752351 59.548622
+L 665.326019 59.548622
+z
+" clip-path="url(#pea9a108b95)" style="fill: url(#hdfbeed1945); stroke: #a18d53; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_33">
+    <!-- 0.825 -->
+    <g style="fill: #64736d" transform="translate(678.014185 57.155106) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(144.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(201.400024 0)"/>
+    </g>
+   </g>
+   <g id="patch_23">
+    <path d="M 693.695925 345.02884
+L 714.122257 345.02884
+L 714.122257 57.32735
+L 693.695925 57.32735
+z
+" clip-path="url(#pea9a108b95)" style="fill: url(#hb6971bb43d); stroke: #718465; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_34">
+    <!-- 0.831 -->
+    <g style="fill: #64736d" transform="translate(706.384091 55.872981) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(144.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-31" transform="translate(199.700027 0)"/>
+    </g>
+   </g>
+   <g id="text_35">
+    <!-- Balanced accuracy  ↑ -->
+    <g style="fill: #17312f" transform="translate(440.068966 18.408) scale(0.13 -0.13)">
+     <defs>
+      <path id="Manrope-Bold-42" d="M 448 0
+L 448 4608
+L 2275 4608
+Q 2742 4608 3041 4421
+Q 3341 4234 3486 3942
+Q 3632 3651 3632 3341
+Q 3632 2960 3451 2694
+Q 3270 2429 2960 2336
+L 2960 2496
+Q 3395 2397 3620 2083
+Q 3846 1770 3846 1370
+Q 3846 960 3689 653
+Q 3533 346 3224 173
+Q 2915 0 2461 0
+L 448 0
+z
+M 1229 726
+L 2365 726
+Q 2566 726 2726 808
+Q 2886 890 2977 1038
+Q 3069 1187 3069 1392
+Q 3069 1578 2989 1725
+Q 2909 1872 2755 1960
+Q 2602 2048 2387 2048
+L 1229 2048
+L 1229 726
+z
+M 1229 2768
+L 2266 2768
+Q 2432 2768 2563 2832
+Q 2694 2896 2771 3021
+Q 2848 3146 2848 3328
+Q 2848 3568 2694 3728
+Q 2541 3888 2266 3888
+L 1229 3888
+L 1229 2768
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-6c" d="M 512 0
+L 512 4704
+L 1283 4704
+L 1283 0
+L 512 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-6e" d="M 2838 0
+L 2838 1664
+Q 2838 1827 2816 2025
+Q 2794 2224 2712 2408
+Q 2630 2592 2468 2710
+Q 2307 2829 2032 2829
+Q 1885 2829 1741 2781
+Q 1597 2733 1480 2616
+Q 1363 2499 1292 2296
+Q 1222 2093 1222 1776
+L 765 1971
+Q 765 2413 936 2771
+Q 1107 3130 1440 3342
+Q 1773 3555 2259 3555
+Q 2643 3555 2892 3427
+Q 3142 3299 3289 3100
+Q 3437 2902 3507 2678
+Q 3578 2454 3598 2254
+Q 3619 2054 3619 1930
+L 3619 0
+L 2838 0
+z
+M 442 0
+L 442 3456
+L 1130 3456
+L 1130 2384
+L 1222 2384
+L 1222 0
+L 442 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-64" d="M 1834 -96
+Q 1357 -96 1001 144
+Q 646 384 451 797
+Q 256 1210 256 1728
+Q 256 2253 453 2664
+Q 650 3075 1011 3313
+Q 1373 3552 1862 3552
+Q 2355 3552 2689 3313
+Q 3024 3075 3197 2662
+Q 3370 2250 3370 1728
+Q 3370 1213 3197 798
+Q 3024 384 2681 144
+Q 2339 -96 1834 -96
+z
+M 1952 595
+Q 2262 595 2452 737
+Q 2643 880 2731 1136
+Q 2819 1392 2819 1728
+Q 2819 2067 2731 2321
+Q 2643 2576 2457 2718
+Q 2272 2861 1978 2861
+Q 1667 2861 1465 2709
+Q 1264 2557 1168 2299
+Q 1072 2042 1072 1728
+Q 1072 1411 1166 1153
+Q 1261 896 1456 745
+Q 1651 595 1952 595
+z
+M 2819 0
+L 2819 2426
+L 2723 2426
+L 2723 4608
+L 3501 4608
+L 3501 0
+L 2819 0
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Bold-42"/>
+     <use xlink:href="#Manrope-Bold-61" transform="translate(63.100006 0)"/>
+     <use xlink:href="#Manrope-Bold-6c" transform="translate(120.700012 0)"/>
+     <use xlink:href="#Manrope-Bold-61" transform="translate(148.750015 0)"/>
+     <use xlink:href="#Manrope-Bold-6e" transform="translate(206.350021 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(268.900024 0)"/>
+     <use xlink:href="#Manrope-Bold-65" transform="translate(326.450027 0)"/>
+     <use xlink:href="#Manrope-Bold-64" transform="translate(386.65004 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(448.350052 0)"/>
+     <use xlink:href="#Manrope-Bold-61" transform="translate(468.350052 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(525.950058 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(583.500061 0)"/>
+     <use xlink:href="#Manrope-Bold-75" transform="translate(641.050064 0)"/>
+     <use xlink:href="#Manrope-Bold-72" transform="translate(703.600067 0)"/>
+     <use xlink:href="#Manrope-Bold-61" transform="translate(743.500076 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(801.100082 0)"/>
+     <use xlink:href="#Manrope-Bold-79" transform="translate(858.650085 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(914.600098 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(934.600098 0)"/>
+     <use xlink:href="#Manrope-Bold-2191" transform="translate(954.600098 0)"/>
+    </g>
+   </g>
+   <g id="LineCollection_10">
+    <path d="M 459.9279 131.586366
+L 459.9279 106.958129
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_47">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="459.9279" y="131.586366" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_48">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="459.9279" y="106.958129" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_11">
+    <path d="M 488.297806 85.481904
+L 488.297806 84.1169
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_49">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="488.297806" y="85.481904" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_50">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="488.297806" y="84.1169" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_12">
+    <path d="M 516.667712 85.405142
+L 516.667712 80.217622
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_51">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="516.667712" y="85.405142" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_52">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="516.667712" y="80.217622" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_13">
+    <path d="M 545.037618 90.367746
+L 545.037618 88.386919
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_53">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="545.037618" y="90.367746" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_54">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="545.037618" y="88.386919" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_14">
+    <path d="M 573.407524 78.349276
+L 573.407524 76.991671
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_55">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="573.407524" y="78.349276" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_56">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="573.407524" y="76.991671" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_15">
+    <path d="M 601.777429 86.007901
+L 601.777429 77.457149
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_57">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="601.777429" y="86.007901" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_58">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="601.777429" y="77.457149" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_16">
+    <path d="M 630.147335 77.918894
+L 630.147335 77.170813
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_59">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="630.147335" y="77.918894" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_60">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="630.147335" y="77.170813" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_17">
+    <path d="M 675.539185 60.97265
+L 675.539185 58.124593
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_61">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="675.539185" y="60.97265" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_62">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="675.539185" y="58.124593" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_18">
+    <path d="M 703.909091 57.812233
+L 703.909091 56.842468
+" clip-path="url(#pea9a108b95)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_63">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="703.909091" y="57.812233" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_64">
+    <g clip-path="url(#pea9a108b95)">
+     <use xlink:href="#m69bf99cc0c" x="703.909091" y="56.842468" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_24">
+    <path d="M 788.337931 154.593882
+L 1069.2 154.593882
+L 1069.2 33.408
+L 788.337931 33.408
+L 788.337931 154.593882
+z
+" style="fill: none; opacity: 0"/>
+   </g>
+   <g id="matplotlib.axis_5"/>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_15">
+     <g id="line2d_65">
+      <path d="M 788.337931 142.475294
+L 1069.2 142.475294
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_66"/>
+     <g id="text_36">
+      <!-- 0.3 -->
+      <g style="fill: #56665e" transform="translate(769.257462 146.517794) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_67">
+      <path d="M 788.337931 118.238118
+L 1069.2 118.238118
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_68"/>
+     <g id="text_37">
+      <!-- 0.4 -->
+      <g style="fill: #56665e" transform="translate(768.855275 122.280618) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-34" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_69">
+      <path d="M 788.337931 94.000941
+L 1069.2 94.000941
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_70"/>
+     <g id="text_38">
+      <!-- 0.5 -->
+      <g style="fill: #56665e" transform="translate(768.987619 98.043441) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_71">
+      <path d="M 788.337931 69.763765
+L 1069.2 69.763765
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_72"/>
+     <g id="text_39">
+      <!-- 0.6 -->
+      <g style="fill: #56665e" transform="translate(768.514962 73.806265) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_73">
+      <path d="M 788.337931 45.526588
+L 1069.2 45.526588
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_74"/>
+     <g id="text_40">
+      <!-- 0.7 -->
+      <g style="fill: #56665e" transform="translate(769.817775 49.569088) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_25">
+    <path d="M 788.337931 154.593882
+L 788.337931 33.408
+" style="fill: none; stroke: #dce2d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 797.983699 215.186824
+L 818.410031 215.186824
+L 818.410031 97.91621
+L 797.983699 97.91621
+z
+" clip-path="url(#p1b56debf25)" style="fill: #c8774e; stroke: #c8774e; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_41">
+    <!-- 0.484 -->
+    <g style="fill: #17312f" transform="translate(810.671865 85.977273) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(145.300034 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(203.350037 0)"/>
+    </g>
+   </g>
+   <g id="patch_27">
+    <path d="M 826.353605 215.186824
+L 846.779937 215.186824
+L 846.779937 123.505655
+L 826.353605 123.505655
+z
+" clip-path="url(#p1b56debf25)" style="fill: #c8a95b; stroke: #c8a95b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_42">
+    <!-- 0.378 -->
+    <g style="fill: #64736d" transform="translate(839.041771 121.020503) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(141.650024 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(191.850037 0)"/>
+    </g>
+   </g>
+   <g id="patch_28">
+    <path d="M 854.723511 215.186824
+L 875.149843 215.186824
+L 875.149843 125.96997
+L 854.723511 125.96997
+z
+" clip-path="url(#p1b56debf25)" style="fill: #9795b3; stroke: #9795b3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_43">
+    <!-- 0.368 -->
+    <g style="fill: #64736d" transform="translate(867.411677 122.719126) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(141.650024 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="patch_29">
+    <path d="M 883.093417 215.186824
+L 903.519749 215.186824
+L 903.519749 137.558218
+L 883.093417 137.558218
+z
+" clip-path="url(#p1b56debf25)" style="fill: #637ca3; stroke: #637ca3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_44">
+    <!-- 0.320 -->
+    <g style="fill: #64736d" transform="translate(895.781583 133.187825) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(141.650024 0)"/>
+     <use xlink:href="#Manrope-Regular-30" transform="translate(198.650024 0)"/>
+    </g>
+   </g>
+   <g id="patch_30">
+    <path d="M 911.463323 215.186824
+L 931.889655 215.186824
+L 931.889655 129.661346
+L 911.463323 129.661346
+z
+" clip-path="url(#p1b56debf25)" style="fill: #7d9a65; stroke: #7d9a65; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_45">
+    <!-- 0.353 -->
+    <g style="fill: #64736d" transform="translate(924.151489 128.120263) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(141.650024 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(199.400024 0)"/>
+    </g>
+   </g>
+   <g id="patch_31">
+    <path d="M 939.833229 215.186824
+L 960.259561 215.186824
+L 960.259561 127.751591
+L 939.833229 127.751591
+z
+" clip-path="url(#p1b56debf25)" style="fill: #62b6a3; stroke: #62b6a3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_46">
+    <!-- 0.361 -->
+    <g style="fill: #17312f" transform="translate(952.521395 119.395859) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(141.650024 0)"/>
+     <use xlink:href="#Manrope-Regular-31" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="patch_32">
+    <path d="M 968.203135 215.186824
+L 988.629467 215.186824
+L 988.629467 135.432439
+L 968.203135 135.432439
+z
+" clip-path="url(#p1b56debf25)" style="fill: #007a69; stroke: #007a69; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_47">
+    <!-- 0.329 -->
+    <g style="fill: #17312f" transform="translate(980.891301 133.916661) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(141.650024 0)"/>
+     <use xlink:href="#Manrope-Regular-39" transform="translate(198.650024 0)"/>
+    </g>
+   </g>
+   <g id="patch_33">
+    <path d="M 1013.594984 215.186824
+L 1034.021317 215.186824
+L 1034.021317 124.506252
+L 1013.594984 124.506252
+z
+" clip-path="url(#p1b56debf25)" style="fill: url(#hdfbeed1945); stroke: #a18d53; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_48">
+    <!-- 0.374 -->
+    <g style="fill: #64736d" transform="translate(1026.28315 121.19035) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(141.650024 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(191.850037 0)"/>
+    </g>
+   </g>
+   <g id="patch_34">
+    <path d="M 1041.96489 215.186824
+L 1062.391223 215.186824
+L 1062.391223 126.822442
+L 1041.96489 126.822442
+z
+" clip-path="url(#p1b56debf25)" style="fill: url(#hb6971bb43d); stroke: #718465; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_49">
+    <!-- 0.365 -->
+    <g style="fill: #64736d" transform="translate(1054.653056 125.108199) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(141.650024 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="text_50">
+    <!-- Normalized detection time  ↓ -->
+    <g style="fill: #17312f" transform="translate(788.337931 18.408) scale(0.13 -0.13)">
+     <defs>
+      <path id="Manrope-Bold-4e" d="M 448 0
+L 448 4608
+L 1229 4608
+L 3366 1360
+L 3366 4608
+L 4147 4608
+L 4147 0
+L 3366 0
+L 1229 3248
+L 1229 0
+L 448 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-7a" d="M 128 0
+L 128 106
+L 1958 2781
+L 314 2781
+L 314 3456
+L 3158 3456
+L 3158 3347
+L 1334 675
+L 3082 675
+L 3082 0
+L 128 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-2193" d="M 2006 4160
+L 2611 4160
+L 2611 518
+L 3472 1382
+L 3843 1014
+L 2304 -522
+L 768 1014
+L 1139 1382
+L 2006 515
+L 2006 4160
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Bold-4e"/>
+     <use xlink:href="#Manrope-Bold-6f" transform="translate(71.800003 0)"/>
+     <use xlink:href="#Manrope-Bold-72" transform="translate(133.600006 0)"/>
+     <use xlink:href="#Manrope-Bold-6d" transform="translate(173.500015 0)"/>
+     <use xlink:href="#Manrope-Bold-61" transform="translate(263.400024 0)"/>
+     <use xlink:href="#Manrope-Bold-6c" transform="translate(321.000031 0)"/>
+     <use xlink:href="#Manrope-Bold-69" transform="translate(349.050034 0)"/>
+     <use xlink:href="#Manrope-Bold-7a" transform="translate(377.100037 0)"/>
+     <use xlink:href="#Manrope-Bold-65" transform="translate(430.450043 0)"/>
+     <use xlink:href="#Manrope-Bold-64" transform="translate(490.650055 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(552.350067 0)"/>
+     <use xlink:href="#Manrope-Bold-64" transform="translate(572.350067 0)"/>
+     <use xlink:href="#Manrope-Bold-65" transform="translate(634.050079 0)"/>
+     <use xlink:href="#Manrope-Bold-74" transform="translate(694.250092 0)"/>
+     <use xlink:href="#Manrope-Bold-65" transform="translate(737.550095 0)"/>
+     <use xlink:href="#Manrope-Bold-63" transform="translate(797.750107 0)"/>
+     <use xlink:href="#Manrope-Bold-74" transform="translate(855.30011 0)"/>
+     <use xlink:href="#Manrope-Bold-69" transform="translate(898.600113 0)"/>
+     <use xlink:href="#Manrope-Bold-6f" transform="translate(926.650116 0)"/>
+     <use xlink:href="#Manrope-Bold-6e" transform="translate(988.450119 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(1051.000122 0)"/>
+     <use xlink:href="#Manrope-Bold-74" transform="translate(1071.000122 0)"/>
+     <use xlink:href="#Manrope-Bold-69" transform="translate(1114.300125 0)"/>
+     <use xlink:href="#Manrope-Bold-6d" transform="translate(1142.350128 0)"/>
+     <use xlink:href="#Manrope-Bold-65" transform="translate(1232.250137 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(1292.45015 0)"/>
+     <use xlink:href="#Manrope-Bold-20" transform="translate(1312.45015 0)"/>
+     <use xlink:href="#Manrope-Bold-2193" transform="translate(1332.45015 0)"/>
+    </g>
+   </g>
+   <g id="LineCollection_19">
+    <path d="M 808.196865 108.88566
+L 808.196865 86.94676
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_75">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="808.196865" y="108.88566" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_76">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="808.196865" y="86.94676" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_20">
+    <path d="M 836.566771 125.02132
+L 836.566771 121.98999
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_77">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="836.566771" y="125.02132" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_78">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="836.566771" y="121.98999" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_21">
+    <path d="M 864.936677 128.251328
+L 864.936677 123.688613
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_79">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="864.936677" y="128.251328" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_80">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="864.936677" y="123.688613" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_22">
+    <path d="M 893.306583 140.959123
+L 893.306583 134.157312
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_81">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="893.306583" y="140.959123" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_82">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="893.306583" y="134.157312" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_23">
+    <path d="M 921.676489 130.232942
+L 921.676489 129.08975
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_83">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="921.676489" y="130.232942" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_84">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="921.676489" y="129.08975" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_24">
+    <path d="M 950.046395 135.137836
+L 950.046395 120.365346
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_85">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="950.046395" y="135.137836" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_86">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="950.046395" y="120.365346" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_25">
+    <path d="M 978.416301 135.97873
+L 978.416301 134.886148
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_87">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="978.416301" y="135.97873" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_88">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="978.416301" y="134.886148" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_26">
+    <path d="M 1023.80815 126.852668
+L 1023.80815 122.159837
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_89">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="1023.80815" y="126.852668" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_90">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="1023.80815" y="122.159837" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_27">
+    <path d="M 1052.178056 127.567199
+L 1052.178056 126.077686
+" clip-path="url(#p1b56debf25)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_91">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="1052.178056" y="127.567199" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_92">
+    <g clip-path="url(#p1b56debf25)">
+     <use xlink:href="#m69bf99cc0c" x="1052.178056" y="126.077686" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_35">
+    <path d="M 91.8 342.432
+L 372.662069 342.432
+L 372.662069 221.246118
+L 91.8 221.246118
+L 91.8 342.432
+z
+" style="fill: none; opacity: 0"/>
+   </g>
+   <g id="matplotlib.axis_7"/>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_20">
+     <g id="line2d_93">
+      <path d="M 91.8 342.432
+L 372.662069 342.432
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_94"/>
+     <g id="text_51">
+      <!-- 0.50 -->
+      <g style="fill: #56665e" transform="translate(65.739688 346.4745) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(144.100021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_95">
+      <path d="M 91.8 318.194824
+L 372.662069 318.194824
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_96"/>
+     <g id="text_52">
+      <!-- 0.55 -->
+      <g style="fill: #56665e" transform="translate(66.097188 322.237324) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(144.100021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_97">
+      <path d="M 91.8 293.957647
+L 372.662069 293.957647
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_98"/>
+     <g id="text_53">
+      <!-- 0.60 -->
+      <g style="fill: #56665e" transform="translate(65.267031 298.000147) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_99">
+      <path d="M 91.8 269.720471
+L 372.662069 269.720471
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_100"/>
+     <g id="text_54">
+      <!-- 0.65 -->
+      <g style="fill: #56665e" transform="translate(65.624531 273.762971) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_101">
+      <path d="M 91.8 245.483294
+L 372.662069 245.483294
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_102"/>
+     <g id="text_55">
+      <!-- 0.70 -->
+      <g style="fill: #56665e" transform="translate(66.569844 249.525794) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(136.550034 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_103">
+      <path d="M 91.8 221.246118
+L 372.662069 221.246118
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_104"/>
+     <g id="text_56">
+      <!-- 0.75 -->
+      <g style="fill: #56665e" transform="translate(66.927344 225.288618) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(136.550034 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_36">
+    <path d="M 91.8 342.432
+L 91.8 221.246118
+" style="fill: none; stroke: #dce2d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_37">
+    <path d="M 101.445768 584.803765
+L 121.8721 584.803765
+L 121.8721 326.37631
+L 101.445768 326.37631
+z
+" clip-path="url(#pce6a59e884)" style="fill: #c8774e; stroke: #c8774e; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_57">
+    <!-- 0.533 -->
+    <g style="fill: #17312f" transform="translate(114.133934 319.108323) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(199.400024 0)"/>
+    </g>
+   </g>
+   <g id="patch_38">
+    <path d="M 129.815674 584.803765
+L 150.242006 584.803765
+L 150.242006 333.757088
+L 129.815674 333.757088
+z
+" clip-path="url(#pce6a59e884)" style="fill: #c8a95b; stroke: #c8a95b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_58">
+    <!-- 0.518 -->
+    <g style="fill: #64736d" transform="translate(142.50384 327.235322) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-31" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(183.100021 0)"/>
+    </g>
+   </g>
+   <g id="patch_39">
+    <path d="M 158.18558 584.803765
+L 178.611912 584.803765
+L 178.611912 295.995466
+L 158.18558 295.995466
+z
+" clip-path="url(#pce6a59e884)" style="fill: #9795b3; stroke: #9795b3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_59">
+    <!-- 0.596 -->
+    <g style="fill: #64736d" transform="translate(170.873746 292.87546) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-39" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(206.150024 0)"/>
+    </g>
+   </g>
+   <g id="patch_40">
+    <path d="M 186.555486 584.803765
+L 206.981818 584.803765
+L 206.981818 281.411233
+L 186.555486 281.411233
+z
+" clip-path="url(#pce6a59e884)" style="fill: #637ca3; stroke: #637ca3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_60">
+    <!-- 0.626 -->
+    <g style="fill: #64736d" transform="translate(199.243652 278.660657) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(205.400024 0)"/>
+    </g>
+   </g>
+   <g id="patch_41">
+    <path d="M 214.925392 584.803765
+L 235.351724 584.803765
+L 235.351724 277.183668
+L 214.925392 277.183668
+z
+" clip-path="url(#pce6a59e884)" style="fill: #7d9a65; stroke: #7d9a65; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_61">
+    <!-- 0.635 -->
+    <g style="fill: #64736d" transform="translate(227.613558 273.303988) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="patch_42">
+    <path d="M 243.295298 584.803765
+L 263.72163 584.803765
+L 263.72163 306.037313
+L 243.295298 306.037313
+z
+" clip-path="url(#pce6a59e884)" style="fill: #62b6a3; stroke: #62b6a3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_62">
+    <!-- 0.575 -->
+    <g style="fill: #17312f" transform="translate(255.983464 298.027654) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(194.300034 0)"/>
+    </g>
+   </g>
+   <g id="patch_43">
+    <path d="M 271.665204 584.803765
+L 292.091536 584.803765
+L 292.091536 272.988955
+L 271.665204 272.988955
+z
+" clip-path="url(#pce6a59e884)" style="fill: #007a69; stroke: #007a69; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_63">
+    <!-- 0.643 -->
+    <g style="fill: #17312f" transform="translate(284.35337 269.449394) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(207.350037 0)"/>
+    </g>
+   </g>
+   <g id="text_64">
+    <!-- LIBERO-90 -->
+    <g style="fill: #17312f" transform="translate(38.845086 315.241949) rotate(-90) scale(0.13 -0.13)">
+     <defs>
+      <path id="Manrope-Bold-4c" d="M 512 0
+L 512 4608
+L 1283 4608
+L 1283 723
+L 3318 723
+L 3318 0
+L 512 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-49" d="M 512 0
+L 512 4608
+L 1283 4608
+L 1283 0
+L 512 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-45" d="M 448 0
+L 448 4608
+L 3424 4608
+L 3424 3885
+L 1219 3885
+L 1219 2749
+L 3040 2749
+L 3040 2026
+L 1219 2026
+L 1219 723
+L 3424 723
+L 3424 0
+L 448 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-52" d="M 448 0
+L 448 4608
+L 2352 4608
+Q 2419 4608 2524 4603
+Q 2630 4598 2720 4582
+Q 3120 4522 3381 4317
+Q 3642 4112 3768 3800
+Q 3894 3488 3894 3107
+Q 3894 2544 3609 2139
+Q 3325 1734 2736 1638
+L 2406 1610
+L 1219 1610
+L 1219 0
+L 448 0
+z
+M 3094 0
+L 2186 1875
+L 2970 2048
+L 3968 0
+L 3094 0
+z
+M 1219 2330
+L 2320 2330
+Q 2384 2330 2464 2336
+Q 2544 2342 2611 2362
+Q 2803 2410 2913 2531
+Q 3024 2653 3070 2806
+Q 3117 2960 3117 3107
+Q 3117 3254 3070 3409
+Q 3024 3565 2913 3686
+Q 2803 3808 2611 3856
+Q 2544 3875 2464 3880
+Q 2384 3885 2320 3885
+L 1219 3885
+L 1219 2330
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-4f" d="M 2397 -96
+Q 1706 -96 1213 206
+Q 720 509 456 1049
+Q 192 1590 192 2304
+Q 192 3018 456 3558
+Q 720 4099 1213 4401
+Q 1706 4704 2397 4704
+Q 3088 4704 3582 4401
+Q 4077 4099 4341 3558
+Q 4605 3018 4605 2304
+Q 4605 1590 4341 1049
+Q 4077 509 3582 206
+Q 3088 -96 2397 -96
+z
+M 2397 630
+Q 2861 627 3169 835
+Q 3478 1043 3633 1420
+Q 3789 1798 3789 2304
+Q 3789 2810 3633 3182
+Q 3478 3555 3169 3763
+Q 2861 3971 2397 3978
+Q 1933 3981 1625 3773
+Q 1318 3565 1163 3187
+Q 1008 2810 1008 2304
+Q 1008 1798 1161 1425
+Q 1315 1053 1624 845
+Q 1933 637 2397 630
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-39" d="M 1936 4698
+Q 2387 4698 2748 4485
+Q 3110 4272 3320 3896
+Q 3530 3520 3530 3030
+L 3530 1626
+Q 3530 1104 3320 715
+Q 3110 326 2732 115
+Q 2355 -96 1850 -96
+Q 1501 -96 1190 24
+Q 880 144 634 394
+L 1187 934
+Q 1312 790 1486 708
+Q 1661 627 1850 627
+Q 2118 627 2320 753
+Q 2522 880 2634 1083
+Q 2746 1286 2746 1520
+L 2746 2285
+L 2883 2131
+Q 2688 1901 2409 1771
+Q 2131 1642 1824 1642
+Q 1392 1642 1057 1840
+Q 723 2038 532 2379
+Q 342 2720 342 3152
+Q 342 3584 560 3934
+Q 778 4285 1141 4491
+Q 1504 4698 1936 4698
+z
+M 1936 3962
+Q 1712 3962 1526 3853
+Q 1341 3744 1232 3560
+Q 1123 3376 1123 3152
+Q 1123 2928 1230 2742
+Q 1338 2557 1522 2448
+Q 1706 2339 1930 2339
+Q 2154 2339 2339 2448
+Q 2525 2557 2635 2742
+Q 2746 2928 2746 3152
+Q 2746 3370 2637 3554
+Q 2528 3738 2344 3850
+Q 2160 3962 1936 3962
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Bold-30" d="M 2106 -96
+Q 1616 -96 1241 113
+Q 867 323 657 697
+Q 448 1072 448 1562
+L 448 3046
+Q 448 3536 657 3910
+Q 867 4285 1241 4494
+Q 1616 4704 2106 4704
+Q 2595 4704 2968 4494
+Q 3341 4285 3552 3910
+Q 3763 3536 3763 3046
+L 3763 1562
+Q 3763 1072 3552 697
+Q 3341 323 2968 113
+Q 2595 -96 2106 -96
+z
+M 2106 637
+Q 2349 637 2547 753
+Q 2746 870 2861 1067
+Q 2976 1264 2976 1507
+L 2976 3104
+Q 2976 3350 2861 3547
+Q 2746 3744 2547 3861
+Q 2349 3978 2106 3978
+Q 1862 3978 1664 3861
+Q 1466 3744 1350 3547
+Q 1235 3350 1235 3104
+L 1235 1507
+Q 1235 1264 1350 1067
+Q 1466 870 1664 753
+Q 1862 637 2106 637
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Bold-4c"/>
+     <use xlink:href="#Manrope-Bold-49" transform="translate(53.350006 0)"/>
+     <use xlink:href="#Manrope-Bold-42" transform="translate(81.400009 0)"/>
+     <use xlink:href="#Manrope-Bold-45" transform="translate(144.500015 0)"/>
+     <use xlink:href="#Manrope-Bold-52" transform="translate(203.000015 0)"/>
+     <use xlink:href="#Manrope-Bold-4f" transform="translate(269.000031 0)"/>
+     <use xlink:href="#Manrope-Bold-2d" transform="translate(343.950043 0)"/>
+     <use xlink:href="#Manrope-Bold-39" transform="translate(385.950043 0)"/>
+     <use xlink:href="#Manrope-Bold-30" transform="translate(448.100052 0)"/>
+    </g>
+   </g>
+   <g id="LineCollection_28">
+    <path d="M 111.658934 332.67481
+L 111.658934 320.07781
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_105">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="111.658934" y="332.67481" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_106">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="111.658934" y="320.07781" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_29">
+    <path d="M 140.02884 339.309366
+L 140.02884 328.204809
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_107">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="140.02884" y="339.309366" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_108">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="140.02884" y="328.204809" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_30">
+    <path d="M 168.398746 298.145984
+L 168.398746 293.844947
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_109">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="168.398746" y="298.145984" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_110">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="168.398746" y="293.844947" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_31">
+    <path d="M 196.768652 283.192322
+L 196.768652 279.630144
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_111">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="196.768652" y="283.192322" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_112">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="196.768652" y="279.630144" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_32">
+    <path d="M 225.138558 280.093862
+L 225.138558 274.273475
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_113">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="225.138558" y="280.093862" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_114">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="225.138558" y="274.273475" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_33">
+    <path d="M 253.508464 313.077485
+L 253.508464 298.997141
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_115">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="253.508464" y="313.077485" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_116">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="253.508464" y="298.997141" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_34">
+    <path d="M 281.87837 275.55903
+L 281.87837 270.418881
+" clip-path="url(#pce6a59e884)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_117">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="281.87837" y="275.55903" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_118">
+    <g clip-path="url(#pce6a59e884)">
+     <use xlink:href="#m69bf99cc0c" x="281.87837" y="270.418881" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_44">
+    <path d="M 440.068966 342.432
+L 720.931034 342.432
+L 720.931034 221.246118
+L 440.068966 221.246118
+L 440.068966 342.432
+z
+" style="fill: none; opacity: 0"/>
+   </g>
+   <g id="matplotlib.axis_9"/>
+   <g id="matplotlib.axis_10">
+    <g id="ytick_26">
+     <g id="line2d_119">
+      <path d="M 440.068966 342.432
+L 720.931034 342.432
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_120"/>
+     <g id="text_65">
+      <!-- 0.55 -->
+      <g style="fill: #56665e" transform="translate(414.366153 346.4745) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(144.100021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_121">
+      <path d="M 440.068966 325.119731
+L 720.931034 325.119731
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_122"/>
+     <g id="text_66">
+      <!-- 0.60 -->
+      <g style="fill: #56665e" transform="translate(413.535997 329.162231) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_123">
+      <path d="M 440.068966 307.807462
+L 720.931034 307.807462
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_124"/>
+     <g id="text_67">
+      <!-- 0.65 -->
+      <g style="fill: #56665e" transform="translate(413.893497 311.849962) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_125">
+      <path d="M 440.068966 290.495193
+L 720.931034 290.495193
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_126"/>
+     <g id="text_68">
+      <!-- 0.70 -->
+      <g style="fill: #56665e" transform="translate(414.838809 294.537693) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(136.550034 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_127">
+      <path d="M 440.068966 273.182924
+L 720.931034 273.182924
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_128"/>
+     <g id="text_69">
+      <!-- 0.75 -->
+      <g style="fill: #56665e" transform="translate(415.196309 277.225424) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(136.550034 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_129">
+      <path d="M 440.068966 255.870655
+L 720.931034 255.870655
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_130"/>
+     <g id="text_70">
+      <!-- 0.80 -->
+      <g style="fill: #56665e" transform="translate(413.975997 259.913155) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-38" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(144.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_131">
+      <path d="M 440.068966 238.558387
+L 720.931034 238.558387
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_132"/>
+     <g id="text_71">
+      <!-- 0.85 -->
+      <g style="fill: #56665e" transform="translate(414.333497 242.600887) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-38" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(144.400024 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_133">
+      <path d="M 440.068966 221.246118
+L 720.931034 221.246118
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_134"/>
+     <g id="text_72">
+      <!-- 0.90 -->
+      <g style="fill: #56665e" transform="translate(413.535997 225.288618) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-39" transform="translate(86.350021 0)"/>
+       <use xlink:href="#Manrope-Regular-30" transform="translate(148.400024 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_45">
+    <path d="M 440.068966 342.432
+L 440.068966 221.246118
+" style="fill: none; stroke: #dce2d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_46">
+    <path d="M 449.714734 532.866958
+L 470.141066 532.866958
+L 470.141066 313.616255
+L 449.714734 313.616255
+z
+" clip-path="url(#p25a1b26d45)" style="fill: #c8774e; stroke: #c8774e; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_73">
+    <!-- 0.633 -->
+    <g style="fill: #17312f" transform="translate(462.4029 304.694809) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-33" transform="translate(203.700027 0)"/>
+    </g>
+   </g>
+   <g id="patch_47">
+    <path d="M 478.084639 532.866958
+L 498.510972 532.866958
+L 498.510972 328.268407
+L 478.084639 328.268407
+z
+" clip-path="url(#p25a1b26d45)" style="fill: #c8a95b; stroke: #c8a95b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_74">
+    <!-- 0.591 -->
+    <g style="fill: #64736d" transform="translate(490.772806 321.94599) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-39" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-31" transform="translate(206.150024 0)"/>
+    </g>
+   </g>
+   <g id="patch_48">
+    <path d="M 506.454545 532.866958
+L 526.880878 532.866958
+L 526.880878 294.688797
+L 506.454545 294.688797
+z
+" clip-path="url(#p25a1b26d45)" style="fill: #9795b3; stroke: #9795b3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_75">
+    <!-- 0.688 -->
+    <g style="fill: #64736d" transform="translate(519.142712 290.157491) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(206.450027 0)"/>
+    </g>
+   </g>
+   <g id="patch_49">
+    <path d="M 534.824451 532.866958
+L 555.250784 532.866958
+L 555.250784 266.194661
+L 534.824451 266.194661
+z
+" clip-path="url(#p25a1b26d45)" style="fill: #637ca3; stroke: #637ca3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_76">
+    <!-- 0.770 -->
+    <g style="fill: #64736d" transform="translate(547.512618 264.016358) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-30" transform="translate(186.750046 0)"/>
+    </g>
+   </g>
+   <g id="patch_50">
+    <path d="M 563.194357 532.866958
+L 583.62069 532.866958
+L 583.62069 270.719437
+L 563.194357 270.719437
+z
+" clip-path="url(#p25a1b26d45)" style="fill: #7d9a65; stroke: #7d9a65; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_77">
+    <!-- 0.757 -->
+    <g style="fill: #64736d" transform="translate(575.882524 267.126834) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(194.300034 0)"/>
+    </g>
+   </g>
+   <g id="patch_51">
+    <path d="M 591.564263 532.866958
+L 611.990596 532.866958
+L 611.990596 297.6537
+L 591.564263 297.6537
+z
+" clip-path="url(#p25a1b26d45)" style="fill: #62b6a3; stroke: #62b6a3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_78">
+    <!-- 0.679 -->
+    <g style="fill: #17312f" transform="translate(604.252429 289.266951) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(148.400024 0)"/>
+     <use xlink:href="#Manrope-Regular-39" transform="translate(198.600037 0)"/>
+    </g>
+   </g>
+   <g id="patch_52">
+    <path d="M 619.934169 532.866958
+L 640.360502 532.866958
+L 640.360502 257.965239
+L 619.934169 257.965239
+z
+" clip-path="url(#p25a1b26d45)" style="fill: #007a69; stroke: #007a69; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_79">
+    <!-- 0.794 -->
+    <g style="fill: #17312f" transform="translate(632.622335 255.227419) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-39" transform="translate(136.550034 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(198.600037 0)"/>
+    </g>
+   </g>
+   <g id="LineCollection_35">
+    <path d="M 459.9279 321.568214
+L 459.9279 305.664296
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_135">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="459.9279" y="321.568214" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_136">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="459.9279" y="305.664296" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_36">
+    <path d="M 488.297806 333.621337
+L 488.297806 322.915477
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_137">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="488.297806" y="333.621337" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_138">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="488.297806" y="322.915477" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_37">
+    <path d="M 516.667712 298.250616
+L 516.667712 291.126978
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_139">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="516.667712" y="298.250616" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_140">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="516.667712" y="291.126978" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_38">
+    <path d="M 545.037618 267.403478
+L 545.037618 264.985845
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_141">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="545.037618" y="267.403478" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_142">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="545.037618" y="264.985845" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_39">
+    <path d="M 573.407524 273.342553
+L 573.407524 268.096321
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_143">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="573.407524" y="273.342553" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_144">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="573.407524" y="268.096321" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_40">
+    <path d="M 601.777429 305.070962
+L 601.777429 290.236438
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_145">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="601.777429" y="305.070962" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_146">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="601.777429" y="290.236438" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_41">
+    <path d="M 630.147335 259.733571
+L 630.147335 256.196906
+" clip-path="url(#p25a1b26d45)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_147">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="630.147335" y="259.733571" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_148">
+    <g clip-path="url(#p25a1b26d45)">
+     <use xlink:href="#m69bf99cc0c" x="630.147335" y="256.196906" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_53">
+    <path d="M 788.337931 342.432
+L 1069.2 342.432
+L 1069.2 221.246118
+L 788.337931 221.246118
+L 788.337931 342.432
+z
+" style="fill: none; opacity: 0"/>
+   </g>
+   <g id="matplotlib.axis_11"/>
+   <g id="matplotlib.axis_12">
+    <g id="ytick_34">
+     <g id="line2d_149">
+      <path d="M 788.337931 330.313412
+L 1069.2 330.313412
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_150"/>
+     <g id="text_80">
+      <!-- 0.3 -->
+      <g style="fill: #56665e" transform="translate(769.257462 334.355912) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-33" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_151">
+      <path d="M 788.337931 306.076235
+L 1069.2 306.076235
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_152"/>
+     <g id="text_81">
+      <!-- 0.4 -->
+      <g style="fill: #56665e" transform="translate(768.855275 310.118735) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-34" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_36">
+     <g id="line2d_153">
+      <path d="M 788.337931 281.839059
+L 1069.2 281.839059
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_154"/>
+     <g id="text_82">
+      <!-- 0.5 -->
+      <g style="fill: #56665e" transform="translate(768.987619 285.881559) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_37">
+     <g id="line2d_155">
+      <path d="M 788.337931 257.601882
+L 1069.2 257.601882
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_156"/>
+     <g id="text_83">
+      <!-- 0.6 -->
+      <g style="fill: #56665e" transform="translate(768.514962 261.644382) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-36" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_157">
+      <path d="M 788.337931 233.364706
+L 1069.2 233.364706
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #e0e6dc; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_158"/>
+     <g id="text_84">
+      <!-- 0.7 -->
+      <g style="fill: #56665e" transform="translate(769.817775 237.407206) scale(0.11 -0.11)">
+       <use xlink:href="#Manrope-Regular-30"/>
+       <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+       <use xlink:href="#Manrope-Regular-37" transform="translate(86.350021 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_54">
+    <path d="M 788.337931 342.432
+L 788.337931 221.246118
+" style="fill: none; stroke: #dce2d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_55">
+    <path d="M 797.983699 403.024941
+L 818.410031 403.024941
+L 818.410031 260.690922
+L 797.983699 260.690922
+z
+" clip-path="url(#pe48e90ac26)" style="fill: #c8774e; stroke: #c8774e; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_85">
+    <!-- 0.587 -->
+    <g style="fill: #17312f" transform="translate(810.671865 253.631839) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(202.150024 0)"/>
+    </g>
+   </g>
+   <g id="patch_56">
+    <path d="M 826.353605 403.024941
+L 846.779937 403.024941
+L 846.779937 262.91352
+L 826.353605 262.91352
+z
+" clip-path="url(#pe48e90ac26)" style="fill: #c8a95b; stroke: #c8a95b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_86">
+    <!-- 0.578 -->
+    <g style="fill: #64736d" transform="translate(839.041771 254.829328) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-38" transform="translate(194.300034 0)"/>
+    </g>
+   </g>
+   <g id="patch_57">
+    <path d="M 854.723511 403.024941
+L 875.149843 403.024941
+L 875.149843 259.459354
+L 854.723511 259.459354
+z
+" clip-path="url(#pe48e90ac26)" style="fill: #9795b3; stroke: #9795b3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_87">
+    <!-- 0.592 -->
+    <g style="fill: #64736d" transform="translate(867.411677 246.751608) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-39" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(206.150024 0)"/>
+    </g>
+   </g>
+   <g id="patch_58">
+    <path d="M 883.093417 403.024941
+L 903.519749 403.024941
+L 903.519749 275.46043
+L 883.093417 275.46043
+z
+" clip-path="url(#pe48e90ac26)" style="fill: #637ca3; stroke: #637ca3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_88">
+    <!-- 0.526 -->
+    <g style="fill: #64736d" transform="translate(895.781583 267.911428) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-32" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-36" transform="translate(201.100021 0)"/>
+    </g>
+   </g>
+   <g id="patch_59">
+    <path d="M 911.463323 403.024941
+L 931.889655 403.024941
+L 931.889655 280.859245
+L 911.463323 280.859245
+z
+" clip-path="url(#pe48e90ac26)" style="fill: #7d9a65; stroke: #7d9a65; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_89">
+    <!-- 0.504 -->
+    <g style="fill: #64736d" transform="translate(924.151489 272.889182) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-30" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(205.100037 0)"/>
+    </g>
+   </g>
+   <g id="patch_60">
+    <path d="M 939.833229 403.024941
+L 960.259561 403.024941
+L 960.259561 267.944347
+L 939.833229 267.944347
+z
+" clip-path="url(#pe48e90ac26)" style="fill: #62b6a3; stroke: #62b6a3; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_90">
+    <!-- 0.557 -->
+    <g style="fill: #17312f" transform="translate(952.521395 260.078266) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-35" transform="translate(144.100021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(201.850021 0)"/>
+    </g>
+   </g>
+   <g id="patch_61">
+    <path d="M 968.203135 403.024941
+L 988.629467 403.024941
+L 988.629467 288.172883
+L 968.203135 288.172883
+z
+" clip-path="url(#pe48e90ac26)" style="fill: #007a69; stroke: #007a69; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_91">
+    <!-- 0.474 -->
+    <g style="fill: #17312f" transform="translate(980.891301 283.884637) rotate(-90) scale(0.1 -0.1)">
+     <use xlink:href="#Manrope-Regular-30"/>
+     <use xlink:href="#Manrope-Regular-2e" transform="translate(61.000015 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(86.350021 0)"/>
+     <use xlink:href="#Manrope-Regular-37" transform="translate(145.300034 0)"/>
+     <use xlink:href="#Manrope-Regular-34" transform="translate(195.500046 0)"/>
+    </g>
+   </g>
+   <g id="LineCollection_42">
+    <path d="M 808.196865 266.780518
+L 808.196865 254.601326
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_159">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="808.196865" y="266.780518" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_160">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="808.196865" y="254.601326" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_43">
+    <path d="M 836.566771 270.028224
+L 836.566771 255.798816
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_161">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="836.566771" y="270.028224" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_162">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="836.566771" y="255.798816" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_44">
+    <path d="M 864.936677 271.197614
+L 864.936677 247.721095
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_163">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="864.936677" y="271.197614" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_164">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="864.936677" y="247.721095" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_45">
+    <path d="M 893.306583 282.039946
+L 893.306583 268.880915
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_165">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="893.306583" y="282.039946" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_166">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="893.306583" y="268.880915" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_46">
+    <path d="M 921.676489 287.85982
+L 921.676489 273.858669
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_167">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="921.676489" y="287.85982" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_168">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="921.676489" y="273.858669" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_47">
+    <path d="M 950.046395 274.840941
+L 950.046395 261.047753
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_169">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="950.046395" y="274.840941" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_170">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="950.046395" y="261.047753" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="LineCollection_48">
+    <path d="M 978.416301 291.491642
+L 978.416301 284.854124
+" clip-path="url(#pe48e90ac26)" style="fill: none; stroke: #435a51"/>
+   </g>
+   <g id="line2d_171">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="978.416301" y="291.491642" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+   <g id="line2d_172">
+    <g clip-path="url(#pe48e90ac26)">
+     <use xlink:href="#m69bf99cc0c" x="978.416301" y="284.854124" style="fill: #1f77b4; stroke: #435a51"/>
+    </g>
+   </g>
+  </g>
+  <g id="legend_1">
+   <g id="patch_62">
+    <path d="M 327.494219 382.347
+L 340.694219 382.347
+L 340.694219 374.647
+L 327.494219 374.647
+z
+" style="fill: #c8774e; stroke: #c8774e; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_92">
+    <!-- BayesDiff -->
+    <g style="fill: #17312f" transform="translate(349.494219 382.347) scale(0.11 -0.11)">
+     <defs>
+      <path id="Manrope-Regular-42" d="M 448 0
+L 448 4608
+L 2227 4608
+Q 2614 4608 2902 4448
+Q 3190 4288 3350 4017
+Q 3510 3747 3510 3421
+Q 3510 3050 3312 2760
+Q 3114 2470 2781 2358
+L 2774 2515
+Q 3222 2387 3478 2067
+Q 3734 1747 3734 1293
+Q 3734 893 3564 603
+Q 3395 314 3088 157
+Q 2781 0 2374 0
+L 448 0
+z
+M 922 451
+L 2259 451
+Q 2541 451 2765 552
+Q 2989 653 3118 838
+Q 3248 1024 3248 1286
+Q 3248 1542 3129 1747
+Q 3011 1952 2808 2075
+Q 2605 2198 2346 2198
+L 922 2198
+L 922 451
+z
+M 922 2643
+L 2224 2643
+Q 2445 2643 2627 2744
+Q 2810 2845 2917 3021
+Q 3024 3197 3024 3427
+Q 3024 3754 2798 3958
+Q 2573 4163 2224 4163
+L 922 4163
+L 922 2643
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-61" d="M 1437 -96
+Q 1046 -96 782 45
+Q 518 186 387 419
+Q 256 653 256 928
+Q 256 1210 369 1410
+Q 483 1610 680 1738
+Q 877 1866 1136 1933
+Q 1398 1997 1716 2046
+Q 2035 2096 2340 2133
+Q 2646 2170 2877 2205
+L 2710 2102
+Q 2720 2614 2512 2860
+Q 2304 3107 1789 3107
+Q 1434 3107 1189 2947
+Q 944 2787 845 2442
+L 387 2576
+Q 506 3040 864 3296
+Q 1222 3552 1795 3552
+Q 2269 3552 2600 3374
+Q 2931 3197 3069 2861
+Q 3133 2710 3152 2524
+Q 3171 2339 3171 2147
+L 3171 0
+L 2752 0
+L 2752 867
+L 2874 816
+Q 2698 371 2326 137
+Q 1955 -96 1437 -96
+z
+M 1491 310
+Q 1821 310 2067 428
+Q 2314 547 2464 753
+Q 2614 960 2659 1219
+Q 2698 1386 2701 1586
+Q 2704 1786 2704 1885
+L 2883 1792
+Q 2643 1760 2363 1728
+Q 2083 1696 1812 1654
+Q 1542 1613 1325 1555
+Q 1178 1514 1040 1438
+Q 902 1363 814 1238
+Q 726 1114 726 928
+Q 726 778 801 637
+Q 877 496 1045 403
+Q 1213 310 1491 310
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-79" d="M 941 -1536
+L 1610 278
+L 1619 -259
+L 106 3456
+L 605 3456
+L 1846 349
+L 1642 349
+L 2787 3456
+L 3267 3456
+L 1411 -1536
+L 941 -1536
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-65" d="M 1910 -96
+Q 1405 -96 1035 128
+Q 666 352 461 758
+Q 256 1165 256 1712
+Q 256 2278 457 2691
+Q 659 3104 1025 3328
+Q 1392 3552 1891 3552
+Q 2403 3552 2764 3317
+Q 3126 3082 3312 2643
+Q 3498 2205 3482 1597
+L 3002 1597
+L 3002 1763
+Q 2989 2435 2712 2777
+Q 2435 3120 1904 3120
+Q 1347 3120 1051 2758
+Q 755 2397 755 1728
+Q 755 1075 1051 715
+Q 1347 355 1891 355
+Q 2262 355 2539 526
+Q 2816 698 2976 1021
+L 3414 851
+Q 3210 400 2811 152
+Q 2413 -96 1910 -96
+z
+M 589 1597
+L 589 1990
+L 3229 1990
+L 3229 1597
+L 589 1597
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-73" d="M 1738 -93
+Q 1130 -93 738 169
+Q 346 432 256 899
+L 736 979
+Q 813 685 1086 510
+Q 1360 336 1763 336
+Q 2157 336 2384 501
+Q 2611 666 2611 950
+Q 2611 1110 2539 1211
+Q 2467 1312 2246 1398
+Q 2026 1485 1587 1603
+Q 1117 1731 851 1859
+Q 586 1987 474 2155
+Q 362 2323 362 2566
+Q 362 2861 528 3083
+Q 694 3306 988 3429
+Q 1283 3552 1674 3552
+Q 2064 3552 2373 3425
+Q 2682 3299 2870 3072
+Q 3059 2845 3094 2544
+L 2614 2458
+Q 2566 2762 2312 2939
+Q 2058 3117 1667 3123
+Q 1299 3133 1068 2984
+Q 838 2835 838 2589
+Q 838 2451 921 2353
+Q 1005 2256 1224 2169
+Q 1443 2083 1850 1981
+Q 2326 1859 2598 1724
+Q 2870 1590 2985 1408
+Q 3101 1226 3101 957
+Q 3101 467 2737 187
+Q 2374 -93 1738 -93
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-44" d="M 448 0
+L 448 4608
+L 1846 4608
+Q 1920 4608 2097 4605
+Q 2275 4602 2438 4579
+Q 2963 4506 3315 4189
+Q 3667 3872 3843 3382
+Q 4019 2893 4019 2304
+Q 4019 1715 3843 1225
+Q 3667 736 3315 419
+Q 2963 102 2438 29
+Q 2278 10 2096 5
+Q 1914 0 1846 0
+L 448 0
+z
+M 934 451
+L 1846 451
+Q 1978 451 2130 459
+Q 2282 467 2390 490
+Q 2794 560 3042 816
+Q 3290 1072 3405 1457
+Q 3520 1843 3520 2304
+Q 3520 2768 3405 3155
+Q 3290 3542 3040 3795
+Q 2790 4048 2390 4118
+Q 2282 4141 2126 4149
+Q 1971 4157 1846 4157
+L 934 4157
+L 934 451
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-69" d="M 512 4112
+L 512 4640
+L 982 4640
+L 982 4112
+L 512 4112
+z
+M 512 0
+L 512 3456
+L 982 3456
+L 982 0
+L 512 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-66" d="M 790 0
+L 790 3712
+Q 790 3846 804 3977
+Q 819 4109 864 4229
+Q 909 4349 1005 4451
+Q 1110 4566 1235 4619
+Q 1360 4672 1496 4688
+Q 1632 4704 1763 4704
+L 2205 4704
+L 2205 4307
+L 1795 4307
+Q 1526 4307 1393 4176
+Q 1261 4045 1261 3763
+L 1261 0
+L 790 0
+z
+M 192 3053
+L 192 3456
+L 2205 3456
+L 2205 3053
+L 192 3053
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-42"/>
+     <use xlink:href="#Manrope-Regular-61" transform="translate(61.300003 0)"/>
+     <use xlink:href="#Manrope-Regular-79" transform="translate(116.850006 0)"/>
+     <use xlink:href="#Manrope-Regular-65" transform="translate(169.600006 0)"/>
+     <use xlink:href="#Manrope-Regular-73" transform="translate(228.050018 0)"/>
+     <use xlink:href="#Manrope-Regular-44" transform="translate(280.550018 0)"/>
+     <use xlink:href="#Manrope-Regular-69" transform="translate(347.700027 0)"/>
+     <use xlink:href="#Manrope-Regular-66" transform="translate(371.050034 0)"/>
+     <use xlink:href="#Manrope-Regular-66" transform="translate(406.500031 0)"/>
+    </g>
+   </g>
+   <g id="patch_63">
+    <path d="M 327.494219 402.972
+L 340.694219 402.972
+L 340.694219 395.272
+L 327.494219 395.272
+z
+" style="fill: #c8a95b; stroke: #c8a95b; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_93">
+    <!-- DECU -->
+    <g style="fill: #17312f" transform="translate(349.494219 402.972) scale(0.11 -0.11)">
+     <defs>
+      <path id="Manrope-Regular-45" d="M 448 0
+L 448 4608
+L 3328 4608
+L 3328 4157
+L 918 4157
+L 918 2563
+L 2944 2563
+L 2944 2112
+L 918 2112
+L 918 451
+L 3328 451
+L 3328 0
+L 448 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-43" d="M 2314 -96
+Q 1626 -96 1152 209
+Q 678 515 435 1056
+Q 192 1597 192 2304
+Q 192 3011 435 3552
+Q 678 4093 1152 4398
+Q 1626 4704 2314 4704
+Q 3117 4704 3625 4293
+Q 4134 3882 4323 3190
+L 3843 3066
+Q 3696 3613 3315 3933
+Q 2934 4253 2314 4253
+Q 1773 4253 1414 4006
+Q 1056 3760 875 3320
+Q 694 2880 688 2304
+Q 685 1728 865 1289
+Q 1046 851 1409 603
+Q 1773 355 2314 355
+Q 2934 355 3315 676
+Q 3696 998 3843 1542
+L 4323 1418
+Q 4134 726 3625 315
+Q 3117 -96 2314 -96
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-55" d="M 2246 -96
+Q 1718 -96 1313 121
+Q 909 339 678 736
+Q 448 1133 448 1664
+L 448 4605
+L 922 4608
+L 922 1725
+Q 922 1366 1043 1105
+Q 1165 845 1361 677
+Q 1558 509 1792 429
+Q 2026 349 2246 349
+Q 2470 349 2704 429
+Q 2938 509 3133 677
+Q 3328 845 3449 1105
+Q 3571 1366 3571 1725
+L 3571 4608
+L 4045 4608
+L 4045 1664
+Q 4045 1133 3814 737
+Q 3584 342 3179 123
+Q 2774 -96 2246 -96
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-44"/>
+     <use xlink:href="#Manrope-Regular-45" transform="translate(67.150009 0)"/>
+     <use xlink:href="#Manrope-Regular-43" transform="translate(124.150009 0)"/>
+     <use xlink:href="#Manrope-Regular-55" transform="translate(195.700012 0)"/>
+    </g>
+   </g>
+   <g id="patch_64">
+    <path d="M 416.809062 382.347
+L 430.009062 382.347
+L 430.009062 374.647
+L 416.809062 374.647
+z
+" style="fill: #9795b3; stroke: #9795b3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_94">
+    <!-- DEUA -->
+    <g style="fill: #17312f" transform="translate(438.809062 382.347) scale(0.11 -0.11)">
+     <defs>
+      <path id="Manrope-Regular-41" d="M 128 0
+L 1715 4608
+L 2339 4608
+L 3926 0
+L 3437 0
+L 1930 4346
+L 2115 4346
+L 618 0
+L 128 0
+z
+M 835 1117
+L 835 1558
+L 3216 1558
+L 3216 1117
+L 835 1117
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-44"/>
+     <use xlink:href="#Manrope-Regular-45" transform="translate(67.150009 0)"/>
+     <use xlink:href="#Manrope-Regular-55" transform="translate(124.150009 0)"/>
+     <use xlink:href="#Manrope-Regular-41" transform="translate(194.350021 0)"/>
+    </g>
+   </g>
+   <g id="patch_65">
+    <path d="M 416.809062 402.972
+L 430.009062 402.972
+L 430.009062 395.272
+L 416.809062 395.272
+z
+" style="fill: #637ca3; stroke: #637ca3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_95">
+    <!-- GU -->
+    <g style="fill: #17312f" transform="translate(438.809062 402.972) scale(0.11 -0.11)">
+     <defs>
+      <path id="Manrope-Regular-47" d="M 2294 -96
+Q 1808 -96 1417 73
+Q 1027 243 753 556
+Q 480 870 336 1313
+Q 192 1757 192 2304
+Q 192 3027 443 3566
+Q 694 4106 1164 4403
+Q 1635 4701 2294 4701
+Q 3030 4701 3492 4357
+Q 3955 4013 4138 3434
+L 3664 3318
+Q 3514 3741 3170 3993
+Q 2826 4246 2314 4246
+Q 1773 4250 1414 4005
+Q 1056 3760 875 3320
+Q 694 2880 691 2304
+Q 688 1728 869 1291
+Q 1050 854 1411 606
+Q 1773 358 2314 355
+Q 2810 355 3133 547
+Q 3456 739 3624 1097
+Q 3792 1456 3814 1946
+L 2752 1946
+L 2752 2349
+L 4307 2349
+Q 4317 2275 4318 2193
+Q 4320 2112 4320 2077
+Q 4320 1453 4096 961
+Q 3872 470 3422 187
+Q 2973 -96 2294 -96
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-47"/>
+     <use xlink:href="#Manrope-Regular-55" transform="translate(70.500015 0)"/>
+    </g>
+   </g>
+   <g id="patch_66">
+    <path d="M 485.856406 382.347
+L 499.056406 382.347
+L 499.056406 374.647
+L 485.856406 374.647
+z
+" style="fill: #7d9a65; stroke: #7d9a65; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_96">
+    <!-- VFD -->
+    <g style="fill: #17312f" transform="translate(507.856406 382.347) scale(0.11 -0.11)">
+     <defs>
+      <path id="Manrope-Regular-56" d="M 1619 0
+L 32 4608
+L 522 4608
+L 1926 534
+L 3341 4608
+L 3830 4608
+L 2243 0
+L 1619 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-46" d="M 448 0
+L 448 4608
+L 3094 4608
+L 3094 4138
+L 918 4138
+L 918 2538
+L 2710 2538
+L 2710 2070
+L 918 2070
+L 918 0
+L 448 0
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-56"/>
+     <use xlink:href="#Manrope-Regular-46" transform="translate(60.350006 0)"/>
+     <use xlink:href="#Manrope-Regular-44" transform="translate(110.700012 0)"/>
+    </g>
+   </g>
+   <g id="patch_67">
+    <path d="M 485.856406 402.972
+L 499.056406 402.972
+L 499.056406 395.272
+L 485.856406 395.272
+z
+" style="fill: #62b6a3; stroke: #62b6a3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_97">
+    <!-- CoMP-EKF -->
+    <g style="fill: #17312f" transform="translate(507.856406 402.972) scale(0.11 -0.11)">
+     <defs>
+      <path id="Manrope-Regular-6f" d="M 1891 -96
+Q 1376 -96 1011 137
+Q 646 371 451 784
+Q 256 1197 256 1731
+Q 256 2275 454 2684
+Q 653 3094 1019 3323
+Q 1386 3552 1891 3552
+Q 2410 3552 2776 3320
+Q 3142 3088 3336 2677
+Q 3530 2266 3530 1731
+Q 3530 1187 3334 776
+Q 3139 365 2771 134
+Q 2403 -96 1891 -96
+z
+M 1891 355
+Q 2467 355 2748 737
+Q 3030 1120 3030 1731
+Q 3030 2358 2747 2729
+Q 2464 3101 1891 3101
+Q 1504 3101 1253 2926
+Q 1002 2752 878 2443
+Q 755 2134 755 1731
+Q 755 1107 1043 731
+Q 1331 355 1891 355
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-4d" d="M 448 0
+L 448 4608
+L 880 4608
+L 2691 733
+L 4493 4608
+L 4931 4608
+L 4931 3
+L 4483 3
+L 4483 3558
+L 2842 0
+L 2538 0
+L 899 3558
+L 899 0
+L 448 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-50" d="M 448 0
+L 448 4608
+L 2227 4608
+Q 2294 4608 2379 4603
+Q 2464 4598 2550 4582
+Q 2912 4528 3163 4331
+Q 3414 4134 3544 3836
+Q 3674 3539 3674 3178
+Q 3674 2819 3542 2521
+Q 3411 2224 3160 2027
+Q 2909 1830 2550 1776
+Q 2464 1763 2379 1756
+Q 2294 1750 2227 1750
+L 918 1750
+L 918 0
+L 448 0
+z
+M 918 2198
+L 2214 2198
+Q 2272 2198 2349 2204
+Q 2426 2211 2499 2227
+Q 2736 2278 2888 2422
+Q 3040 2566 3115 2764
+Q 3190 2963 3190 3178
+Q 3190 3392 3115 3592
+Q 3040 3792 2888 3936
+Q 2736 4080 2499 4131
+Q 2426 4147 2349 4152
+Q 2272 4157 2214 4157
+L 918 4157
+L 918 2198
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-2d" d="M 384 1814
+L 384 2218
+L 2304 2218
+L 2304 1814
+L 384 1814
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-4b" d="M 448 0
+L 448 4608
+L 918 4608
+L 918 2432
+L 3021 4608
+L 3622 4608
+L 1475 2384
+L 3798 0
+L 3184 0
+L 918 2304
+L 918 0
+L 448 0
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-43"/>
+     <use xlink:href="#Manrope-Regular-6f" transform="translate(71.550003 0)"/>
+     <use xlink:href="#Manrope-Regular-4d" transform="translate(130.700012 0)"/>
+     <use xlink:href="#Manrope-Regular-50" transform="translate(214.750031 0)"/>
+     <use xlink:href="#Manrope-Regular-2d" transform="translate(275.15004 0)"/>
+     <use xlink:href="#Manrope-Regular-45" transform="translate(317.15004 0)"/>
+     <use xlink:href="#Manrope-Regular-4b" transform="translate(374.15004 0)"/>
+     <use xlink:href="#Manrope-Regular-46" transform="translate(433.500046 0)"/>
+    </g>
+   </g>
+   <g id="patch_68">
+    <path d="M 579.779219 382.347
+L 592.979219 382.347
+L 592.979219 374.647
+L 579.779219 374.647
+z
+" style="fill: #007a69; stroke: #007a69; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_98">
+    <!-- CoMP-UKF -->
+    <g style="fill: #17312f" transform="translate(601.779219 382.347) scale(0.11 -0.11)">
+     <use xlink:href="#Manrope-Regular-43"/>
+     <use xlink:href="#Manrope-Regular-6f" transform="translate(71.550003 0)"/>
+     <use xlink:href="#Manrope-Regular-4d" transform="translate(130.700012 0)"/>
+     <use xlink:href="#Manrope-Regular-50" transform="translate(214.750031 0)"/>
+     <use xlink:href="#Manrope-Regular-2d" transform="translate(275.15004 0)"/>
+     <use xlink:href="#Manrope-Regular-55" transform="translate(317.15004 0)"/>
+     <use xlink:href="#Manrope-Regular-4b" transform="translate(387.350052 0)"/>
+     <use xlink:href="#Manrope-Regular-46" transform="translate(446.700058 0)"/>
+    </g>
+   </g>
+   <g id="patch_69">
+    <path d="M 579.779219 402.972
+L 592.979219 402.972
+L 592.979219 395.272
+L 579.779219 395.272
+z
+" style="fill: url(#hdfbeed1945); stroke: #a18d53; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_99">
+    <!-- DECU ensemble -->
+    <g style="fill: #17312f" transform="translate(601.779219 402.972) scale(0.11 -0.11)">
+     <defs>
+      <path id="Manrope-Regular-20" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-6e" d="M 2944 0
+L 2944 1763
+Q 2944 2051 2889 2292
+Q 2835 2534 2715 2715
+Q 2595 2896 2404 2995
+Q 2214 3094 1942 3094
+Q 1693 3094 1502 3008
+Q 1312 2922 1182 2760
+Q 1053 2598 985 2368
+Q 918 2138 918 1843
+L 586 1917
+Q 586 2448 771 2809
+Q 957 3171 1283 3356
+Q 1610 3542 2032 3542
+Q 2342 3542 2574 3446
+Q 2806 3350 2968 3187
+Q 3130 3024 3229 2814
+Q 3328 2605 3373 2369
+Q 3418 2134 3418 1901
+L 3418 0
+L 2944 0
+z
+M 445 0
+L 445 3456
+L 870 3456
+L 870 2605
+L 918 2605
+L 918 0
+L 445 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-6d" d="M 4570 0
+L 4573 2269
+Q 4573 2669 4350 2897
+Q 4128 3126 3786 3126
+Q 3590 3126 3404 3036
+Q 3219 2947 3099 2748
+Q 2979 2550 2979 2230
+L 2701 2310
+Q 2691 2682 2846 2960
+Q 3002 3238 3275 3393
+Q 3549 3549 3894 3549
+Q 4416 3549 4729 3227
+Q 5043 2906 5043 2358
+L 5040 0
+L 4570 0
+z
+M 445 0
+L 445 3456
+L 867 3456
+L 867 2605
+L 918 2605
+L 918 0
+L 445 0
+z
+M 2512 0
+L 2515 2237
+Q 2515 2650 2296 2888
+Q 2077 3126 1718 3126
+Q 1360 3126 1139 2881
+Q 918 2637 918 2230
+L 637 2384
+Q 637 2717 793 2981
+Q 950 3245 1222 3397
+Q 1494 3549 1840 3549
+Q 2170 3549 2427 3408
+Q 2685 3267 2832 2998
+Q 2979 2730 2979 2346
+L 2976 0
+L 2512 0
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-62" d="M 2000 -96
+Q 1523 -96 1193 145
+Q 864 387 694 801
+Q 525 1216 525 1731
+Q 525 2256 696 2667
+Q 867 3078 1200 3315
+Q 1533 3552 2019 3552
+Q 2493 3552 2832 3312
+Q 3171 3072 3352 2659
+Q 3533 2246 3533 1731
+Q 3533 1213 3350 800
+Q 3168 387 2825 145
+Q 2483 -96 2000 -96
+z
+M 445 0
+L 445 4608
+L 918 4608
+L 918 2602
+L 867 2602
+L 867 0
+L 445 0
+z
+M 1952 342
+Q 2314 342 2554 524
+Q 2794 707 2914 1022
+Q 3034 1338 3034 1731
+Q 3034 2122 2915 2435
+Q 2797 2749 2555 2931
+Q 2314 3114 1942 3114
+Q 1581 3114 1342 2938
+Q 1104 2762 985 2450
+Q 867 2138 867 1731
+Q 867 1331 985 1016
+Q 1104 701 1344 521
+Q 1584 342 1952 342
+z
+" transform="scale(0.015625)"/>
+      <path id="Manrope-Regular-6c" d="M 512 0
+L 512 4704
+L 982 4704
+L 982 0
+L 512 0
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#Manrope-Regular-44"/>
+     <use xlink:href="#Manrope-Regular-45" transform="translate(67.150009 0)"/>
+     <use xlink:href="#Manrope-Regular-43" transform="translate(124.150009 0)"/>
+     <use xlink:href="#Manrope-Regular-55" transform="translate(195.700012 0)"/>
+     <use xlink:href="#Manrope-Regular-20" transform="translate(265.900024 0)"/>
+     <use xlink:href="#Manrope-Regular-65" transform="translate(285.900024 0)"/>
+     <use xlink:href="#Manrope-Regular-6e" transform="translate(344.350037 0)"/>
+     <use xlink:href="#Manrope-Regular-73" transform="translate(403.750046 0)"/>
+     <use xlink:href="#Manrope-Regular-65" transform="translate(456.250046 0)"/>
+     <use xlink:href="#Manrope-Regular-6d" transform="translate(514.700058 0)"/>
+     <use xlink:href="#Manrope-Regular-62" transform="translate(599.500076 0)"/>
+     <use xlink:href="#Manrope-Regular-6c" transform="translate(658.700089 0)"/>
+     <use xlink:href="#Manrope-Regular-65" transform="translate(682.050095 0)"/>
+    </g>
+   </g>
+   <g id="patch_70">
+    <path d="M 701.935938 382.347
+L 715.135938 382.347
+L 715.135938 374.647
+L 701.935938 374.647
+z
+" style="fill: url(#hb6971bb43d); stroke: #718465; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_100">
+    <!-- VFD ensemble -->
+    <g style="fill: #17312f" transform="translate(723.935938 382.347) scale(0.11 -0.11)">
+     <use xlink:href="#Manrope-Regular-56"/>
+     <use xlink:href="#Manrope-Regular-46" transform="translate(60.350006 0)"/>
+     <use xlink:href="#Manrope-Regular-44" transform="translate(110.700012 0)"/>
+     <use xlink:href="#Manrope-Regular-20" transform="translate(177.850021 0)"/>
+     <use xlink:href="#Manrope-Regular-65" transform="translate(197.850021 0)"/>
+     <use xlink:href="#Manrope-Regular-6e" transform="translate(256.300034 0)"/>
+     <use xlink:href="#Manrope-Regular-73" transform="translate(315.700043 0)"/>
+     <use xlink:href="#Manrope-Regular-65" transform="translate(368.200043 0)"/>
+     <use xlink:href="#Manrope-Regular-6d" transform="translate(426.650055 0)"/>
+     <use xlink:href="#Manrope-Regular-62" transform="translate(511.450073 0)"/>
+     <use xlink:href="#Manrope-Regular-6c" transform="translate(570.650085 0)"/>
+     <use xlink:href="#Manrope-Regular-65" transform="translate(594.000092 0)"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p25969fd000">
+   <rect x="91.8" y="33.408" width="280.862069" height="121.185882"/>
+  </clipPath>
+  <clipPath id="pea9a108b95">
+   <rect x="440.068966" y="33.408" width="280.862069" height="121.185882"/>
+  </clipPath>
+  <clipPath id="p1b56debf25">
+   <rect x="788.337931" y="33.408" width="280.862069" height="121.185882"/>
+  </clipPath>
+  <clipPath id="pce6a59e884">
+   <rect x="91.8" y="221.246118" width="280.862069" height="121.185882"/>
+  </clipPath>
+  <clipPath id="p25a1b26d45">
+   <rect x="440.068966" y="221.246118" width="280.862069" height="121.185882"/>
+  </clipPath>
+  <clipPath id="pe48e90ac26">
+   <rect x="788.337931" y="221.246118" width="280.862069" height="121.185882"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="hdfbeed1945" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="none"/>
+   <path d="M -36 36
+L 36 -36
+M -32 40
+L 40 -32
+M -28 44
+L 44 -28
+M -24 48
+L 48 -24
+M -20 52
+L 52 -20
+M -16 56
+L 56 -16
+M -12 60
+L 60 -12
+M -8 64
+L 64 -8
+M -4 68
+L 68 -4
+M 0 72
+L 72 0
+M 4 76
+L 76 4
+M 8 80
+L 80 8
+M 12 84
+L 84 12
+M 16 88
+L 88 16
+M 20 92
+L 92 20
+M 24 96
+L 96 24
+M 28 100
+L 100 28
+M 32 104
+L 104 32
+M 36 108
+L 108 36
+" style="fill: #a18d53; stroke: #a18d53; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+  <pattern id="hb6971bb43d" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="none"/>
+   <path d="M -36 36
+L 36 -36
+M -32 40
+L 40 -32
+M -28 44
+L 44 -28
+M -24 48
+L 48 -24
+M -20 52
+L 52 -20
+M -16 56
+L 56 -16
+M -12 60
+L 60 -12
+M -8 64
+L 64 -8
+M -4 68
+L 68 -4
+M 0 72
+L 72 0
+M 4 76
+L 76 4
+M 8 80
+L 80 8
+M 12 84
+L 84 12
+M 16 88
+L 88 16
+M 20 92
+L 92 20
+M 24 96
+L 96 24
+M 28 100
+L 100 28
+M 32 104
+L 104 32
+M 36 108
+L 108 36
+" style="fill: #718465; stroke: #718465; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>
